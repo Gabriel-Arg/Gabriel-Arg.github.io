@@ -31,18 +31,3 @@ main {
     margin: 25px auto;
     font-family: Helvetica;
     font-size: 25px;
-
-/* -----------FOOTER--------------------- */
-footer {
-    border: 1px solid red;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
-
-    font-family: Helvetica;
-    font-size: 25px;
-    color: white;
-    background-color: gray;
-    height: 300px;
-}
