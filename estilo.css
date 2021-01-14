@@ -1,0 +1,20 @@
+body {
+
+}
+
+header {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Helvetica;
+    font-size: 45px;
+    background-color: gray;
+    height: 500px;
+}
+
+.encabezado-txt {
+    color: black;
+}
