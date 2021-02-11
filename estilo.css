@@ -1,48 +1,12 @@
 body {
-
+    background-color: #F1EBDA;
 }
 
-/* -----------HEADER------------------------ */
-header {
-    border: 1px solid red;
+.error404-header {
+    margin-top: 30px;
+}
+
+.error404img {
     display: flex;
-    flex-flow: wrap row;
     justify-content: center;
-    align-items: center;
-
-    font-family: Helvetica;
-    font-size: 45px;
-    background-color: rgb(162, 71, 71);
-    height: 500px;
-}
-
-.encabezado-txt {
-    color: black;
-}
-
-/* --------------MAIN--------------------- */
-main {
-    display: flex;
-    
-    height: auto;
-}
-
-.prueba {
-    margin: 25px auto;
-    font-family: Helvetica;
-    font-size: 25px;
-}
-
-footer {
-    border: 1px solid red;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
-
-    font-family: Helvetica;
-    font-size: 25px;
-    color: white;
-    background-color: gray;
-    height: 300px;
 }
