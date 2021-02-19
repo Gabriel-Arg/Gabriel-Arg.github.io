@@ -1,0 +1,46 @@
+/* -------------DISPOSITIVO MOVIL---------------------------- */
+@media screen and (max-width: 576px) {
+    .burger-icon {
+        display: flex;
+    }
+
+    /*---------- MENU ACTIVO Y OCULTO ----- */
+    .menu-activo {
+        background-color: #ececec;
+        height: 100%;
+        width: 60vw;
+        padding: 50px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 2;
+        transition: 0.3s;
+    }
+    .menu-activo ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-activo li {
+        margin: 20px 60px;
+    }
+    .menu-activo li a {
+        color: #30475e;
+        font-size: 25px;
+    }
+    .menu-contacto {
+        height: 100%;
+        background-color: #30475e;
+        border-radius: 6px 6px 0px 0px;
+    }
+    .menu-activo .menu-contacto a {
+        color: white;
+    }
+    .menu-oculto {
+        left: -60vw;
+    }
+}

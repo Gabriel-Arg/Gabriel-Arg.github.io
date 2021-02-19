@@ -1,9 +1,8 @@
 body {
-    background-color: #ffffff;
+    background-color: #222831;
 }
 
 /* -------MENU--------------------------------- */
-
 .burger-icon {
     display: none;
     width: 50px;
@@ -18,8 +17,7 @@ body {
 }
 
 .menu-container {
-    border: 1px solid black;
-    height: 100px;
+    height: 60px;
 }
 
 .menu-row {
@@ -30,13 +28,22 @@ body {
 }
 
 nav {
-    border: 1px solid red;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: flex-end;
 }
 
-.menu-row nav ul {
+nav ul {
+    list-style: none;
     display: flex;
-    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
 }
+
+nav a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #ececec8c;
+}
+
+/* ------- HEADER ---------  ----- */
