@@ -1,12 +1,49 @@
 body {
-    background-color: #F1EBDA;
+    background-color: #222831;
 }
 
-.error404-header {
-    margin-top: 30px;
+/* -------MENU--------------------------------- */
+.burger-icon {
+    display: none;
+    width: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: -15px;
+    z-index: 3;
+}
+.burger-icon img {
+    width: 100%;
 }
 
-.error404img {
+.menu-container {
+    height: 60px;
+}
+
+.menu-row {
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+nav {
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #ececec8c;
+}
+
+/* ------- HEADER ---------  ----- */
