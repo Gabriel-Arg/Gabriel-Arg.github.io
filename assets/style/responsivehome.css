@@ -26,7 +26,7 @@
         align-items: flex-start;
     }
     .menu-activo li {
-        margin: 20px 60px;
+        margin: 20px 0px 20px 50px;
     }
     .menu-activo li a {
         color: #30475e;
