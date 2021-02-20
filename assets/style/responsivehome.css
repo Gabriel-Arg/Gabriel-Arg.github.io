@@ -48,4 +48,22 @@
         left: -60vw;
     }
 }
-/* --------------------------------------------------- */
+/* ---------------TABLET Y SUPERIOR ----------------- */
+@media screen and (min-width: 768px) {
+    .container-header {
+        height: auto;
+    }
+    .row-header {
+        height: inherit;
+    }
+    .hero-cita {
+        margin: 5% 0px 0px 55%;
+    }
+    h1 {
+        padding-top: 9%;
+    }
+    h3 {
+        font-size: 2.5vw;
+    }
+
+}
