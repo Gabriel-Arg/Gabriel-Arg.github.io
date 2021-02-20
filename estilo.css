@@ -57,18 +57,27 @@ nav a:hover {
 
 /* ---------BOTON DE CONTACTO------------- */
 .contacto-button {
-    width: 35px;
+    width: 57px;
     cursor: pointer;
     position: fixed;
     top: 80px;
-    left: 18px;
+    left: 8px;
     z-index: 1;
 }
 .contacto-button img {
     width: 100%;
     filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5));
 }
-
+.modal-dialog {
+    margin-top: 70px;
+}
+.foto-perfil {
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -10%;
+}
 
 /* ------- HEADER ---------  ----- */
 .container-header {
