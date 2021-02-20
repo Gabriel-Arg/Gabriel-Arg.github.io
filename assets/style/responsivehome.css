@@ -1,5 +1,9 @@
 /* -------------DISPOSITIVO MOVIL---------------------------- */
 @media screen and (max-width: 576px) {
+    .menu-container, .menu-row {
+        height: auto;
+    }
+
     .burger-icon {
         display: flex;
     }
@@ -44,3 +48,4 @@
         left: -60vw;
     }
 }
+/* --------------------------------------------------- */
