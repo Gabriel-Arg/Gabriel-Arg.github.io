@@ -13,11 +13,13 @@ p, a {
     cursor: pointer;
     position: fixed;
     top: 15px;
-    left: -15px;
+    left: 15px;
+    
     z-index: 3;
 }
 .burger-icon img {
     width: 100%;
+    filter: drop-shadow(2px 2px 2px black);
 }
 
 .menu-container {
