@@ -55,6 +55,21 @@ nav a:hover {
     color: #f2a365;
 }
 
+/* ---------BOTON DE CONTACTO------------- */
+.contacto-button {
+    width: 35px;
+    cursor: pointer;
+    position: fixed;
+    top: 80px;
+    left: 18px;
+    z-index: 1;
+}
+.contacto-button img {
+    width: 100%;
+    filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5));
+}
+
+
 /* ------- HEADER ---------  ----- */
 .container-header {
     /* border: 1px solid red; */
