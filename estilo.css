@@ -92,6 +92,7 @@ h3 {
     color: #f2a365;
     padding-left: 7vw;
     font-family: 'Aldrich', sans-serif;
+    font-size: 4.6vw;
 }
 
 .hero-cita {
@@ -105,4 +106,9 @@ h3 {
 }
 .hero-info p {
     margin-left: 50%;
+}
+
+/* --------------SOBRE MI------------------ */
+.container-sobremi {
+    height: 700px;
 }
