@@ -1,6 +1,9 @@
 body {
     background-color: #222831;
 }
+p, a {
+    font-family: 'Aldrich', sans-serif;
+}
 
 /* -------MENU--------------------------------- */
 .burger-icon {
@@ -82,16 +85,19 @@ nav a:hover {
 h1 {
     font-size: 10vw;
     padding-left: 7vw;
+    font-family: 'Quantico', sans-serif;
 }
 
 h3 {
     color: #f2a365;
     padding-left: 7vw;
+    font-family: 'Aldrich', sans-serif;
 }
 
 .hero-cita {
     text-align: right;
     margin: 10% 0px 0px 30%;
+
 }
 .hero-info {
     border: 1px solid blue;
