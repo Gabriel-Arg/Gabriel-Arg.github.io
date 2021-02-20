@@ -46,4 +46,50 @@ nav a {
     color: #ececec8c;
 }
 
+nav a:hover {
+    color: #f2a365;
+}
+
 /* ------- HEADER ---------  ----- */
+.container-header {
+    border: 1px solid red;
+    height: 95vmax;
+    background-image: url(assets/img/estrellas.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ececec;
+}
+
+.row-header {
+    border: 1px solid green;
+    height: 95vmax;
+    background-image: url(assets/img/nave-marte.\(2\).svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero {
+    border: 1px solid blue;
+}
+
+h1 {
+    font-size: 10vw;
+    padding-left: 10vw;
+}
+
+h3 {
+    color: #f2a365;
+    padding-left: 10vw;
+}
+
+.hero-info {
+    border: 1px solid blue;
+    text-align: right;
+}
