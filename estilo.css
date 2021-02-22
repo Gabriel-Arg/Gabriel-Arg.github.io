@@ -70,14 +70,46 @@ nav a:hover {
 }
 .modal-dialog {
     margin-top: 70px;
+    color: #30475e;
+    font-family: 'Aldrich', sans-serif;
 }
 .foto-perfil {
     width: 150px;
     border-radius: 50%;
     position: absolute;
-    left: 50%;
-    top: -10%;
+    left: 60%;
+    top: -40px;
 }
+.modal-content {
+    background-color: #ececec;
+}
+.modal-title {
+    margin-left: 15%;
+}
+.modal-body .row {
+    /* border: 1px solid red; */
+    margin: 40px 30px;
+    justify-content: space-around;
+}
+.social {
+    /* border: 1px solid blue; */
+    width: auto;
+}
+.social-img {
+    width: 60px;
+}
+.modal-footer {
+    background-color: #f2a365;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social-whatsapp {
+    width: 70px;
+}
+
+
 
 /* ------- HEADER ---------  ----- */
 .container-header {
