@@ -68,11 +68,6 @@ nav a:hover {
     width: 100%;
     filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5));
 }
-.modal-dialog {
-    margin-top: 70px;
-    color: #30475e;
-    font-family: 'Aldrich', sans-serif;
-}
 .foto-perfil {
     width: 150px;
     border-radius: 50%;
@@ -81,18 +76,22 @@ nav a:hover {
     top: -40px;
 }
 .modal-dialog {
-    width: 350px;
-    left: 6%;
+    margin: 70px 18vw 0;
+    color: #30475e;
+    font-family: 'Aldrich', sans-serif;
+    width: 270px;
+    height: auto;
+    left: ;
 }
 .modal-content {
     background-color: #ececec;
 }
 .modal-title {
-    margin-left: 10%;
+    margin-left: 3%;
 }
 .modal-body .row {
     /* border: 1px solid red; */
-    margin: 40px 30px;
+    margin: 30px 0px;
     justify-content: space-around;
 }
 .social {
@@ -100,7 +99,7 @@ nav a:hover {
     width: auto;
 }
 .social-img {
-    width: 60px;
+    width: 50px;
 }
 .modal-footer {
     background-color: #f2a365;
