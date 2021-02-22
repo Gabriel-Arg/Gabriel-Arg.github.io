@@ -3,7 +3,6 @@
     .menu-container, .menu-row {
         height: auto;
     }
-
     .burger-icon {
         display: flex;
     }
@@ -68,8 +67,8 @@
 
     /* -------BOTON DE CONTACTO------ */
     .contacto-button {
-        width: 80px;
-        top: 30px;
+        width: 70px;
+        top: 5px;
         left: 10vw;
         z-index: 1;
     }
