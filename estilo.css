@@ -51,11 +51,11 @@ nav a:hover {
 
 /* ---------BOTON DE CONTACTO------------- */
 .contacto-button {
-    width: 57px;
+    width: 60px;
     cursor: pointer;
     position: fixed;
-    top: 80px;
-    left: 8px;
+    bottom: 10px;
+    left: 10px;
     z-index: 1;
 }
 .contacto-button img {
@@ -193,4 +193,45 @@ h3 {
 .sobremi-foto {
     width: 150px;
     border-radius: 50%;
+}
+
+.sobremi-contenedor {
+    border: 1px solid yellow;
+    background-color: #ececec;
+    height: 100vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sobremi-tarjeta {
+    border: 1px solid rgb(255, 0, 128);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sobremi-ph {
+    border: 1px solid red;
+    width: auto;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+
+}
+.sobremi-ph img {
+    width: 200px;
+    border-radius: 50%;
+}
+.sobremi-info {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+}
+.sobremi-info2 {
+    border: 1px solid blue;
+    width: 100%;
 }
