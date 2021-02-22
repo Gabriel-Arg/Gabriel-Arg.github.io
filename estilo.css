@@ -80,11 +80,15 @@ nav a:hover {
     left: 60%;
     top: -40px;
 }
+.modal-dialog {
+    width: 350px;
+    left: 6%;
+}
 .modal-content {
     background-color: #ececec;
 }
 .modal-title {
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .modal-body .row {
     /* border: 1px solid red; */
