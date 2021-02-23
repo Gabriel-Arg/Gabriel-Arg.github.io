@@ -57,9 +57,6 @@ nav a {
 nav a:hover {
     color: #f2a365;
 }
-.menu-contacto {
-    
-}
 
 /* ---------BOTON DE CONTACTO------------- */
 .contacto-button {
@@ -230,6 +227,32 @@ h3 {
 }
 
 /* --------------HISTORIA 1---------------- */
-.h1-conteiner {
-    height: 500px;
+.historia1-ancestro {
+    border: 1px solid yellow;
+    height: 100vmax;
+    background: cadetblue fixed no-repeat 50% 50%;
+    background-image: url(assets/img/moon1.jpg);
+    background-size: cover;
+    object-fit: cover;
 }
+.historia1-conteiner {
+    border: 1px solid red;
+    height: 150px;
+    background: rgb(34,40,49);
+    background: linear-gradient(180deg, rgba(34,40,49,1) 0%, rgba(255,255,255,0) 100%);
+}
+.historia1-padre {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.historia-txt {
+    border: 1px solid cyan;
+    color: #ececec;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+/* --------SKILLS---------------------- */
+
