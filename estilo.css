@@ -21,8 +21,9 @@ p, a {
     filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5));
 }
 .menu-container-fluid {
-    height: 50px;
-    background-color:#222831;
+    height: 70px;
+    background: rgb(34,40,49);
+    background: linear-gradient(180deg, rgba(34,40,49,1) 50%, rgba(255,255,255,0) 100%);
     position: sticky;
     top: 0;
     z-index: 1;
