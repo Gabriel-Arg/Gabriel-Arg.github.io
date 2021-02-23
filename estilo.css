@@ -119,10 +119,12 @@ nav a:hover {
 .container-header {
     /* border: 1px solid red; */
     height: 100vmax;
-    background-image: url(assets/img/estrellas.svg);
+    
+    background-image: url(assets/img/tierra5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
     color: #ececec;
 }
 .row-header {
