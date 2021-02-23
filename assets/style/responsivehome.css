@@ -47,6 +47,7 @@
         left: -60vw;
     }
 }
+
 /* ---------------TABLET Y SUPERIOR ------------------- */
 @media screen and (min-width: 768px) {
     .container-header {
@@ -88,5 +89,10 @@
     }
     .sobremi-ph {
         width: 200px;
+    }
+
+    /* -----------HISTORIA 1-------------- */
+    .historia1-ancestro  {
+        height: 660px;
     }
 }
