@@ -57,6 +57,9 @@ nav a {
 nav a:hover {
     color: #f2a365;
 }
+.menu-contacto {
+    
+}
 
 /* ---------BOTON DE CONTACTO------------- */
 .contacto-button {
@@ -65,7 +68,6 @@ nav a:hover {
     position: fixed;
     bottom: 10px;
     left: 10px;
-    z-index: 1;
 }
 .contacto-button img {
     width: 100%;
@@ -191,6 +193,8 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: static;
+    z-index: -1;
 }
 .sobremi-ph {
     /* border: 1px solid red; */
