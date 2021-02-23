@@ -25,6 +25,7 @@ p, a {
     background-color:#222831;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .menu-container {
     /* border: 1px solid red; */
@@ -167,79 +168,64 @@ h3 {
 }
 
 /* --------------SOBRE MI------------------ */
-.sobremi-container {
-    border: 1px solid greenyellow;
+.sobremi-padre {
+    /* border: 1px solid red; */
+    padding: 50px 0px 0px;
     height: 100vmax;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-.sobremi-container .row {
-    border: 1px solid red;
-    background-color: #ececec;
-    border-radius: 1%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.sobremi-title {
-    margin-top: 30px;
-    padding: 25px;
-}
-.sobremi-title h2{
-    font-family: 'Quantico', sans-serif;
-    font-size: 30px;
-}
-.sobremi-content {
-    background-color: #6f6f6f6e;
-    height: auto;
-    padding: 25px 25px;
-}
-.sobremi-foto {
-    width: 150px;
-    border-radius: 50%;
-}
-
 .sobremi-contenedor {
-    border: 1px solid yellow;
-    background-color: #ececec;
-    height: 100vmax;
+    /* border: 1px solid yellow; */
+    height: auto;
+    margin-top: 100px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.sobremi-tarjeta {
-    border: 1px solid rgb(255, 0, 128);
-    height: 500px;
-    width: 100%;
+.sobremi-info-container {
+    /* border: 1px solid orange; */
+    filter: drop-shadow(2px 2px  2px rgba(0, 0, 0, 0.5));
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .sobremi-ph {
-    border: 1px solid red;
-    width: auto;
+    /* border: 1px solid red; */
+    width: 170px;
+    padding: 0;
     border-radius: 50%;
-    position: relative;
-    top: 60px;
-
+    position: absolute;
+    right: 10px;
+    top: -100px;
 }
 .sobremi-ph img {
-    width: 200px;
+    width: 100%;
     border-radius: 50%;
 }
 .sobremi-info {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-radius: 3px 3px 0px 0px;
+    background-color: #ececec;
     width: 100%;
-    height: 300px;
-    padding-top: 70px;
+    height: auto;
+    padding: 30px 20px 20px;
+}
+.sobremi-info h2 {
+    margin: 0px 0px 50px 5%;
+    font-family: 'Quantico', sans-serif;
 }
 .sobremi-info2 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    border-radius: 0px 0px 3px 3px;
+    background-color: #f2a365;
     width: 100%;
+    padding: 20px;
+}
+
+/* --------------HISTORIA 1---------------- */
+.h1-conteiner {
+    height: 500px;
 }

@@ -1,6 +1,6 @@
 /* -------------DISPOSITIVO MOVIL---------------------------- */
 @media screen and (max-width: 576px) {
-    .menu-container, .menu-row {
+    .menu-container-fluid, .menu-container, .menu-row {
         height: auto;
     }
     .burger-icon {
@@ -20,7 +20,7 @@
         position: fixed;
         left: 0px;
         top: 0px;
-        z-index: 2;
+        z-index: 1;
         transition: 0.3s;
     }
     .menu-activo ul {
@@ -70,6 +70,22 @@
         width: 70px;
         top: 5px;
         left: 10vw;
-        z-index: 1;
+    }
+
+    /* --------SOBRE MI--------------- */
+    .sobremi-padre {
+        height: auto;
+    }
+    .sobremi-contenedor {
+        height: auto;
+        padding: 20px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobremi-ph {
+        width: 200px;
     }
 }
