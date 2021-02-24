@@ -50,22 +50,7 @@
 
 /* ---------------TABLET Y SUPERIOR ------------------- */
 @media screen and (min-width: 768px) {
-    .container-header {
-        height: auto;
-    }
-    .row-header {
-        height: inherit;
-    }
-    .hero-cita {
-        margin: 5% 0px 0px 55%;
-    }
-    h1 {
-        padding-top: 9%;
-    }
-    h3 {
-        font-size: 2.5vw;
-    }
-
+    
     /* -------BOTON DE CONTACTO------ */
     .contacto-button {
         width: 70px;
@@ -76,21 +61,7 @@
     }
 
     /* --------SOBRE MI--------------- */
-    .sobremi-padre {
-        height: auto;
-    }
-    .sobremi-contenedor {
-        height: auto;
-        padding: 20px;
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .sobremi-ph {
-        width: 200px;
-    }
+
 
     /* -----------HISTORIA 1-------------- */
     .historia1-ancestro  {
@@ -98,23 +69,4 @@
     }
 
     /* -----------SKILLS------------------ */
-    .skills-ancenstro {
-        height: 600px;
-    }
-    .skills-conteiner {
-        width: 75%;
-    }
-    .skills-content{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 20px
-    }
-    .content-1 {
-        height: 350px;
-    }
-    .content-2 {
-        height: 100%;
-        width: 60%;
-    }
-}
+    

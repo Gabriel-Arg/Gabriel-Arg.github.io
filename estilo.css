@@ -1,6 +1,9 @@
 body {
     background-color: #222831;
 }
+h1, h2, h3 {
+    font-family: ;
+}
 p, a {
     font-family: 'Aldrich', sans-serif;
     font-size: 14px;
@@ -116,120 +119,13 @@ nav a:hover {
 }
 
 /* ------- HEADER ---------  ----- */
-.container-header {
-    /* border: 1px solid red; */
-    height: 100vmax;
-    
-    background-image: url(assets/img/);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 
-    color: #ececec;
-}
-.row-header {
-    /* border: 1px solid green; */
-    height: 100vmax;
-    background-image: url(assets/img/nave-marte.\(2\).svg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: scroll;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.hero {
-    /* border: 1px solid blue; */
-}
-h1 {
-    font-size: 10vw;
-    padding-left: 7vw;
-    font-family: 'Quantico', sans-serif;
-    margin: 0;
-}
-h3 {
-    color: #f2a365;
-    padding-left: 7vw;
-    font-family: 'Quantico', sans-serif;
-    font-size: 4vw;
-    margin: 0;
-}
-.hero-cita {
-    text-align: right;
-    margin: 25% 0px 0px 30%;
-    color: #ececec8c;
-}
-.hero-info {
-    /* border: 1px solid blue; */
-    text-align: right;
-}
-.hero-info p {
-    margin-left: 50%;
-}
 
 /* --------------SOBRE MI------------------ */
-.sobremi-padre {
-    /* border: 1px solid red; */
-    padding: 50px 0px 0px;
-    height: 100vmax;
-}
-.sobremi-contenedor {
-    /* border: 1px solid yellow; */
-    height: auto;
-    margin-top: 100px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.sobremi-info-container {
-    /* border: 1px solid orange; */
-    filter: drop-shadow(2px 2px  2px rgba(0, 0, 0, 0.5));
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: static;
-    z-index: -1;
-}
-.sobremi-ph {
-    /* border: 1px solid red; */
-    width: 170px;
-    padding: 0;
-    border-radius: 50%;
-    position: absolute;
-    right: 10px;
-    top: -100px;
-}
-.sobremi-ph img {
-    width: 100%;
-    border-radius: 50%;
-}
-.sobremi-info {
-    /* border: 1px solid black; */
-    border-radius: 3px 3px 0px 0px;
-    background-color: #ececec;
-    width: 100%;
-    height: auto;
-    padding: 30px 20px 20px;
-}
-.sobremi-info h2 {
-    margin: 0px 0px 50px 5%;
-    font-family: 'Quantico', sans-serif;
-}
-.sobremi-info2 {
-    /* border: 1px solid blue; */
-    border-radius: 0px 0px 3px 3px;
-    background-color: #f2a365;
-    width: 100%;
-    padding: 20px;
-}
-
-/* --------------HISTORIA 1---------------- */
+/* --------------HISTORIA 1 PARALAX---------------- */
 .historia1-ancestro {
     /* border: 1px solid yellow; */
     height: 100vmax;
@@ -261,84 +157,3 @@ h3 {
 }
 
 /* --------SKILLS---------------------- */
-.skills-ancenstro {
-    /* border: 1px solid red; */
-    padding: 0px;
-    height: 100vmax;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.skills-conteiner {
-    /* border: 1px solid yellow; */
-    height: auto;
-    padding: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-}
-.skills-card {
-    /* border: 1px solid rgb(242, 0, 255); */
-    filter: drop-shadow(2px 2px  2px rgba(0, 0, 0, 0.5));
-    width: auto;
-    height: auto;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.skills-title {
-    /* border: 1px solid black; */
-    border-radius: 3px 3px 0px 0px;
-    background-color: #ececec;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Quantico', sans-serif;
-}
-.skills-content{
-    /* border: 1px solid blue; */
-    background-color: #ececec;
-    padding: 0;
-
-    display: flex;
-    flex-direction: column;
-}
-.content-1 {
-    /* border: 1px solid black; */
-    background-color: white;
-    border-radius: 0px 10px 10px 0px;
-    width: 90%;
-    height: 500px;
-
-    overflow: hidden;
-}
-.content-2 {
-    /* border: 1px solid black; */
-    background-color: #ececec;
-    height: auto;
-    width: 100%;
-    padding: 20px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content-2 p {
-    text-align: center;
-    margin: 0;
-}
-.skills-footer {
-        /* border: 1px solid black; */
-        border-radius: 0px 0px 3px 3px;
-        background-color: #f2a365;
-        width: ;
-        height: auto;
-        padding: 10px;
-        text-align: center;
-        font-family: 'Quantico', sans-serif;
-}
