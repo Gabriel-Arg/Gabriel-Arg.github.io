@@ -233,12 +233,15 @@ h3 {
 .historia1-ancestro {
     /* border: 1px solid yellow; */
     height: 100vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: cadetblue fixed no-repeat 50% 50%;
     background-image: url(assets/img/moon1.jpg);
     background-size: cover;
     object-fit: cover;
 }
-.historia1-conteiner {
+.historia-transicion {
     /* border: 1px solid red; */
     height: 150px;
     background: rgb(34,40,49);
@@ -258,4 +261,80 @@ h3 {
 }
 
 /* --------SKILLS---------------------- */
+.skills-ancenstro {
+    /* border: 1px solid red; */
+    padding: 0px;
+    height: 100vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills-conteiner {
+    /* border: 1px solid yellow; */
+    height: 100%;
+    padding: 0;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-card {
+    /* border: 1px solid rgb(242, 0, 255); */
+    filter: drop-shadow(2px 2px  2px rgba(0, 0, 0, 0.5));
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-title {
+    /* border: 1px solid black; */
+    border-radius: 3px 3px 0px 0px;
+    background-color: #ececec;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+}
+.skills-content{
+    /* border: 1px solid blue; */
+    background-color: #ececec;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+.content-1 {
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    width: 90%;
+    height: 350px;
+}
+.content-2 {
+    /* border: 1px solid black; */
+    background-color: #ececec;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-2 p {
+    text-align: center;
+    margin: 0;
+}
+.skills-footer {
+        /* border: 1px solid black; */
+        border-radius: 0px 0px 3px 3px;
+        background-color: #f2a365;
+        width: ;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Quantico', sans-serif;
+}

@@ -69,6 +69,7 @@
     /* -------BOTON DE CONTACTO------ */
     .contacto-button {
         width: 70px;
+        height: 70px;
         top: 5px;
         left: 10vw;
         z-index: 1;
@@ -94,5 +95,26 @@
     /* -----------HISTORIA 1-------------- */
     .historia1-ancestro  {
         height: 660px;
+    }
+
+    /* -----------SKILLS------------------ */
+    .skills-ancenstro {
+        height: 600px;
+    }
+    .skills-conteiner {
+        width: 75%;
+    }
+    .skills-content{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px
+    }
+    .content-1 {
+        height: ;
+    }
+    .content-2 {
+        height: 100%;
+        width: 60%;
     }
 }
