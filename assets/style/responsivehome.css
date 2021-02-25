@@ -75,11 +75,21 @@
         margin-right: 30vmax;
     }
 
-
-
-
-
     /* --------SOBRE MI--------------- */
+    .sobremi-ancestro  {
+        height: 100vmin;
+    }
+    .sobremi-f1-izq h2 {
+        font-size: 4.5rem;
+        margin-left: 200px;
+    }
+    .sobremi-centro-izq h2 {
+        font-size: 4.5rem;
+        margin-left: 200px;
+    }
+    .numero01 h2 {
+        font-size: 9rem;
+    }
 
 
     /* -----------HISTORIA 1-------------- */
