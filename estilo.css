@@ -288,6 +288,7 @@ nav a:hover {
 .numero01 h2 {
     font-size: 80px;
     color: #323232;
+    margin: 70px 0px 0px;
 }
 
 /* ---EFECTO MAQUINA DE ESCRIBIR------ */
@@ -328,8 +329,12 @@ nav a:hover {
     }
 }
 
+.sobremi-centro-der h2 {
+    margin: 0;
+}
 .sobremi-centro-der p {
     margin: 0;
+    font-family: 'Aldrich', sans-serif;
 }
 
 

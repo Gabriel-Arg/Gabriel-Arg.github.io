@@ -89,15 +89,13 @@
     }
     .numero01 h2 {
         font-size: 9rem;
+        margin: 0;
     }
-
 
     /* -----------HISTORIA 1-------------- */
     .historia1-ancestro  {
         height: 100vmin;
     }
-
-
 
     /* -----------SKILLS------------------ */
 
