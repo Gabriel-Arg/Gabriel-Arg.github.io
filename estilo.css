@@ -127,16 +127,20 @@ nav a:hover {
 
 /* ------- HEADER ---------  ----- */
 .header-ancestro {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: 100vmax;
+    background-image: url(assets/img/tele2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .header-padre {
-    background-color: rgba(255, 0, 0, 0.063);
-    border: 1px solid red;
+    /* background-color: rgba(255, 0, 0, 0.063);
+    border: 1px solid red; */
     height: 25%;
 }
 .header-f1 {
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
 }
 .header-f1 p {
     writing-mode: vertical-rl;
@@ -152,9 +156,18 @@ nav a:hover {
     align-items: center;
     text-align: center;
 }
+.header-monitor {
+    border: 5px solid #323232;
+    border-radius: 10px;
+    background-color: #0c0c0c;
+    filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5));
+    width: 88%;
+    padding: 40px 0px;
+}
 .header-padre-centro h5 {
     padding: 0% 10%;
     margin: 0;
+    font-size: 18px;
 }
 /* ---EFECTO MAQUINA DE ESCRIBIR------ */
 .typing1,
@@ -165,7 +178,7 @@ nav a:hover {
 .typing1::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #212121;
+    background-color: #0c0c0c;
     right: 0;
     width: 1%;
     height: 25px;
@@ -176,7 +189,7 @@ nav a:hover {
 .typing2::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #212121;
+    background-color: #0c0c0c;
     right: 0;
     width: 1%;
     height: 25px;
@@ -187,7 +200,7 @@ nav a:hover {
 .typing3::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #212121;
+    background-color: #0c0c0c;
     right: 0;
     width: 1%;
     height: 25px;
