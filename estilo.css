@@ -1,12 +1,19 @@
 body {
-    background-color: #222831;
+    background-color: #212121;
 }
-h1, h2, h3 {
-    font-family: ;
+h1, h2, h3, h4, h5 {
+    font-family: 'Quantico', sans-serif;
+    color: #eeeeee;
 }
-p, a {
+p {
     font-family: 'Aldrich', sans-serif;
     font-size: 14px;
+    color: #eeeeee;
+}
+a {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 14px;
+    color: #0d7377;
 }
 
 /* -------MENU--------------------------------- */
@@ -24,9 +31,7 @@ p, a {
     filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5));
 }
 .menu-container-fluid {
-    height: 70px;
-    background: rgb(34,40,49);
-    background: linear-gradient(180deg, rgba(34,40,49,1) 50%, rgba(255,255,255,0) 100%);
+    height: 50px;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -56,10 +61,12 @@ nav ul {
 nav a {
     text-decoration: none;
     margin: 0px 10px;
-    color: #ececec8c;
 }
 nav a:hover {
-    color: #f2a365;
+    font-size: 20px;
+    transition: 0.4s;
+    color: #14ffec;
+    margin: 0;
 }
 
 /* ---------BOTON DE CONTACTO------------- */
@@ -119,6 +126,67 @@ nav a:hover {
 }
 
 /* ------- HEADER ---------  ----- */
+.header-ancestro {
+    border: 1px solid yellow;
+    height: 100vmax;
+}
+.header-padre {
+    background-color: rgba(255, 0, 0, 0.063);
+    border: 1px solid red;
+    height: 25%;
+}
+.header-f1 {
+    border: 1px solid goldenrod;
+}
+.header-f1 p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin: 40px auto 0px ;
+    font-size: 10px;
+}
+.header-padre-centro {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-padre-centro h5 {
+    padding: 0% 10%;
+}
+.flecha-abajo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.header-f1 img {
+    width: 70px;
+}
+.header-puntos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
