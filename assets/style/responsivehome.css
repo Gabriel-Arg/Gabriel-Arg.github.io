@@ -48,9 +48,9 @@
     }
 }
 
-/* ---------------TABLET Y SUPERIOR ------------------- */
+/* -----md 768----TABLET Y SUPERIOR ------------------- */
 @media screen and (min-width: 768px) {
-    
+
     /* -------BOTON DE CONTACTO------ */
     .contacto-button {
         width: 70px;
@@ -60,13 +60,28 @@
         z-index: 1;
     }
 
+    /* ------HEADER-------------------- */
+    .header-ancestro  {
+        height: 100vmin;
+    }
+    .header-padre-centro h5 {
+        padding: 0% 20%;
+    }
+
+
+
+
+
     /* --------SOBRE MI--------------- */
 
 
     /* -----------HISTORIA 1-------------- */
     .historia1-ancestro  {
-        height: 660px;
+        height: 100vmin;
     }
 
+
+
     /* -----------SKILLS------------------ */
-    
+
+}
