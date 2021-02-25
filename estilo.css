@@ -305,7 +305,7 @@ nav a:hover {
     height: 40px;
     position: absolute;
     animation: typing 2s both alternate steps(10);
-    animation-delay: 1s;
+    animation-delay: 13s;
 }
 .typing5::after {
     content: "";
@@ -317,7 +317,7 @@ nav a:hover {
     height: 40px;
     position: absolute;
     animation: typing 1.5s both alternate steps(10);
-    animation-delay: 3s;
+    animation-delay: 16s;
 }
 @keyframes typing {
     from {
