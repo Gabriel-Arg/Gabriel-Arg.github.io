@@ -9,9 +9,9 @@
 
     /*---------- MENU ACTIVO Y OCULTO -----*/
     .menu-activo {
-        background-color: #ececec;
+        background-color: #252525;
         height: 100%;
-        width: 60vw;
+        width: 80vw;
         padding: 90px 0px 0px;
         display: flex;
         flex-direction: column;
@@ -21,7 +21,7 @@
         left: 0px;
         top: 0px;
         z-index: 2;
-        transition: 0.3s;
+        transition: 0.4s;
     }
     .menu-activo ul {
         display: flex;
@@ -32,19 +32,19 @@
         margin: 20px 0px 20px 50px;
     }
     .menu-activo li a {
-        color: #30475e;
+        color: #14ffec;
         font-size: 20px;
     }
     .menu-contacto {
         height: 100%;
-        background-color: #30475e;
+        background-color: #414141;
         border-radius: 6px 6px 0px 0px;
     }
     .menu-activo .menu-contacto a {
-        color: white;
+        color: #eeeeee;
     }
     .menu-oculto {
-        left: -60vw;
+        left: -80vw;
     }
 }
 
@@ -56,7 +56,7 @@
         width: 70px;
         height: 70px;
         top: 5px;
-        left: 10vw;
+        left: 5vw;
         z-index: 1;
     }
 

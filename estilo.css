@@ -19,7 +19,7 @@ a {
 /* -------MENU--------------------------------- */
 .burger-icon {
     display: none;
-    width: 50px;
+    width: 35px;
     cursor: pointer;
     position: fixed;
     bottom: 15px;
@@ -75,7 +75,7 @@ nav a:hover {
     cursor: pointer;
     position: fixed;
     bottom: 10px;
-    left: 60px;
+    left: 55px;
 }
 .contacto-button img {
     width: 100%;
@@ -203,7 +203,7 @@ nav a:hover {
     width: 1%;
     height: 25px;
     position: absolute;
-    animation: typing 2s both alternate steps(31);
+    animation: typing 1.5s both alternate steps(10);
     animation-delay: 3s;
 }
 .typing3::after {
