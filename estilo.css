@@ -147,13 +147,63 @@ nav a:hover {
 .header-padre-centro {
     height: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 .header-padre-centro h5 {
     padding: 0% 10%;
+    margin: 0;
 }
+/* ---EFECTO MAQUINA DE ESCRIBIR------ */
+.typing1,
+.typing2,
+.typing3 {
+    position: relative;
+}
+.typing1::after {
+    content: "";
+    /* border-left: 4px solid #ff0000; */
+    background-color: #212121;
+    right: 0;
+    width: 1%;
+    height: 25px;
+    position: absolute;
+    animation: typing 2s both alternate steps(31);
+    animation-delay: 1s;
+}
+.typing2::after {
+    content: "";
+    /* border-left: 4px solid #ff0000; */
+    background-color: #212121;
+    right: 0;
+    width: 1%;
+    height: 25px;
+    position: absolute;
+    animation: typing 3s both alternate steps(31);
+    animation-delay: 3s;
+}
+.typing3::after {
+    content: "";
+    /* border-left: 4px solid #ff0000; */
+    background-color: #212121;
+    right: 0;
+    width: 1%;
+    height: 25px;
+    position: absolute;
+    animation: typing 3s both alternate steps(31);
+    animation-delay: 6s;
+}
+@keyframes typing {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
 .flecha-abajo {
     display: flex;
     justify-content: flex-end;
@@ -168,7 +218,6 @@ nav a:hover {
     flex-direction: column;
     justify-content: flex-end;
 }
-
 
 
 
