@@ -35,6 +35,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: #212121db;
 }
 .menu-container {
     /* border: 1px solid red; */
@@ -139,9 +140,6 @@ nav a:hover {
     border: 1px solid red; */
     height: 25%;
 }
-.header-f1 {
-    /* border: 1px solid goldenrod; */
-}
 .header-f1 p {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -241,27 +239,74 @@ nav a:hover {
     justify-content: flex-end;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --------------SOBRE MI------------------ */
+.sobremi-ancestro {
+    /* border: 1px solid yellow; */
+    height: 100vmax;
+    background-color: #212121;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sobremi-padre {
+    /* background-color: rgba(255, 0, 0, 0.063);
+    border: 1px solid red; */
+    height: 25%;
+}
+.sobremi-f1-izq {
+    /* border: 1px solid goldenrod; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.sobremi-f1-izq h2 {
+    font-size: 65px;
+    margin-left: 5%;
+}
+.sobremi-f1 p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin: 40px auto 0px ;
+    font-size: 10px;
+}
+.sobremi-padre-centro {
+    height: 50%;
+}
+.sobremi-centro-izq {
+    /* background-color: rgba(172, 255, 47, 0.241); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.sobremi-centro-izq h2 {
+    font-size: 65px;
+    margin-left: 5%;
+}
+.sobremi-centro-der {
+    /* background-color: rgba(128, 0, 128, 0.152); */
+}
+.numero01 h2 {
+    font-size: 80px;
+    color: #323232;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* --------------HISTORIA 1 PARALAX---------------- */
