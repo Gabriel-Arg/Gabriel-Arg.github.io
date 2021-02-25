@@ -71,6 +71,9 @@
         width: 60%;
         padding: 40px 0px;
     }
+    .flecha-abajo a img {
+        margin-right: 30vmax;
+    }
 
 
 
