@@ -290,8 +290,47 @@ nav a:hover {
     color: #323232;
 }
 
+/* ---EFECTO MAQUINA DE ESCRIBIR------ */
+.typing4,
+.typing5 {
+    position: relative;
+    color: #ff0000;
+}
+.typing4::after {
+    content: "";
+    /* border-left: 4px solid #ff0000; */
+    background-color: #212121;
+    right: 0;
+    width: 5%;
+    height: 40px;
+    position: absolute;
+    animation: typing 2s both alternate steps(10);
+    animation-delay: 1s;
+}
+.typing5::after {
+    content: "";
+    /* border-left: 4px solid #ff0000; */
+    background-color: #212121;
+    background-color: #;
+    right: 0;
+    width: 1%;
+    height: 40px;
+    position: absolute;
+    animation: typing 1.5s both alternate steps(10);
+    animation-delay: 3s;
+}
+@keyframes typing {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
 
-
+.sobremi-centro-der p {
+    margin: 0;
+}
 
 
 
