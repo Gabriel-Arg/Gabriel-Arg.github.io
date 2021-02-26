@@ -99,4 +99,17 @@
 
     /* -----------SKILLS------------------ */
 
+    
+    /* ---------FOOTER-------------------- */
+    .footer-ancestro  {
+        height: 100vmin;
+    }
+    .numero05 h2 {
+        font-size: 9rem;
+        margin: 20px 0px 0px;
+    }
+    .footer-padre-centro h5 {
+        padding: 0% 20%;
+    }
+
 }

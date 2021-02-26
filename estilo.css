@@ -233,7 +233,6 @@ nav a:hover {
         width: 0%;
     }
 }
-
 .flecha-abajo {
     display: flex;
     justify-content: flex-end;
@@ -381,3 +380,54 @@ nav a:hover {
 }
 
 /* --------SKILLS---------------------- */
+
+/* --------FOOTER----------------------- */
+.footer-ancestro {
+    /* border: 1px solid yellow; */
+    height: 100vmax;
+}
+.footer-padre {
+    /* background-color: rgba(255, 0, 0, 0.063);
+    border: 1px solid red; */
+    height: 25%;
+}
+.footer-f1 p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin: 40px auto 0px ;
+    font-size: 10px;
+}
+.numero05 h2 {
+    font-size: 80px;
+    color: #323232;
+    margin: 15px 0px 0px;
+}
+
+
+
+
+
+
+.footer-padre-centro {
+    background-color: rgba(100, 148, 237, 0.035);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-centro-titulo {
+    background-color: rgba(218, 112, 214, 0.083);
+}
+
+
+
+
+
+
+.footer-puntos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
