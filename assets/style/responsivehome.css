@@ -106,10 +106,20 @@
     }
     .numero05 h2 {
         font-size: 9rem;
-        margin: 20px 0px 0px;
+        margin: 20px 0px 0px 30%;
     }
     .footer-padre-centro h5 {
         padding: 0% 20%;
+    }
+    .footer-centro-titulo h2 {
+        font-size: 4rem;
+    }
+    .footer-redes {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-redes-cont {
+        margin: 0px 10px 0px;
     }
 
 }
