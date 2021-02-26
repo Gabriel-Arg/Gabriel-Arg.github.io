@@ -64,10 +64,11 @@ nav a {
     margin: 0px 10px;
 }
 nav a:hover {
-    font-size: 20px;
+    font-size: 17px;
     transition: 0.4s;
     color: #14ffec;
-    margin: 0;
+    filter: drop-shadow(1px 1px  10px #0d7377);
+    margin: 0px 3px;
 }
 
 /* ---------BOTON DE CONTACTO------------- */
@@ -384,12 +385,37 @@ nav a:hover {
 /* --------FOOTER----------------------- */
 .footer-ancestro {
     /* border: 1px solid yellow; */
+    background-color: #212121;
     height: 100vmax;
+    position: absolute;
+    z-index: ;
 }
 .footer-padre {
     /* background-color: rgba(255, 0, 0, 0.063);
     border: 1px solid red; */
     height: 25%;
+}
+.footer-f1-correo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-f1-correo img {
+    width: 25px;
+    margin: 10px 0px;
+}
+.footer-f1-correo img:hover {
+    width: 35px;
+    margin: 5px 0px;
+    filter: drop-shadow(1px 1px  10px #0d7377);
+    transition: 0.4s;
+}
+.footer-f1-correo p {
+    margin: 0px;
+    font-size: 12px;
+    color: #0d7377;
+    text-align: end;
 }
 .footer-f1 p {
     writing-mode: vertical-rl;
@@ -434,6 +460,17 @@ nav a:hover {
     text-align: start;
     color: #0d7377;
 }
+
+
+
+
+
+
+
+
+
+
+
 .footer-redes {
     /* background-color: rgba(205, 92, 92, 0.07); */
     display: flex;
@@ -444,9 +481,17 @@ nav a:hover {
 }
 .footer-redes-cont {
     /* background-color: rgba(255, 255, 0, 0.2); */
-    width: 45px;
-    height: 45px;
-    margin: 0px 5px 5px;
+    width: 35px;
+    height: 35px;
+    margin: 0px 8px 0px;
+    cursor: pointer;
+}
+.footer-redes-cont:hover {
+    width: 50px;
+    width: 50px;
+    transition: 0.4s;
+    margin: 0px 2.5px 10px;
+    filter: drop-shadow(1px 1px  10px #0d7377);
 }
 
 
