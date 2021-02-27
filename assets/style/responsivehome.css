@@ -1,4 +1,4 @@
-/* -------------DISPOSITIVO MOVIL---------------------------- */
+/* ----sm576-----DISPOSITIVO MOVIL---------------------------- */
 @media screen and (max-width: 576px) {
     .menu-container-fluid, .menu-container, .menu-row {
         height: auto;
@@ -47,6 +47,46 @@
         left: -80vw;
     }
 }
+
+/* ----sm 667 CELULAR HORIZONTAL------------------- */
+@media screen and (min-width: 667px) {
+    .modal-content {
+        width: 500px;
+    }
+    .foto-perfil {
+        left: 35%;
+        top: -120px;
+    }
+    .modal-body {
+        display: flex;
+        padding-bottom: 0;
+    }
+    .modal-body .row {
+        /* border: 1px solid red; */
+        width: 150px;
+        margin: 20px 0px;
+        justify-content: space-around;
+    }
+    .modal-footer {
+        padding: 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -----md 768----TABLET Y SUPERIOR ------------------- */
 @media screen and (min-width: 768px) {
