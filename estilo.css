@@ -361,8 +361,13 @@ nav a:hover {
 
 
 /* --------------HISTORIA 1 PARALAX---------------- */
-.historia1-ancestro {
-    /* border: 1px solid yellow; */
+.historia1 {
+    
+}
+
+
+/* .historia1-ancestro {
+    border: 1px solid yellow;
     height: 100vmax;
     display: flex;
     flex-direction: column;
@@ -371,9 +376,10 @@ nav a:hover {
     background-image: url(assets/img/teclado1.jpg);
     background-size: cover;
     object-fit: cover;
-}
+} */
+
 .historia-transicion {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     height: 150px;
     background: rgb(34,40,49);
     background: linear-gradient(180deg, rgba(34,40,49,1) 0%, rgba(255,255,255,0) 100%);
@@ -385,7 +391,7 @@ nav a:hover {
     justify-content: space-between;
 }
 .historia-txt {
-    /* border: 1px solid cyan; */
+    border: 1px solid cyan;
     color: #ececec;
     text-align: center;
     padding: 0px 20px;
