@@ -70,6 +70,10 @@
     .modal-footer {
         padding: 4px;
     }
+
+    .historia1-ancestro {
+        height: 100vmin;
+    }
 }
 
 /* -----md 768----TABLET Y SUPERIOR ------------------- */
