@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
-=======
 {"version":3,"sourceRoot":"","sources":["scss/estilo.scss","scss/components/_variables.scss"],"names":[],"mappings":"AAKA;EAEI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,kBCFW;EDGX;EACA;EACA;EACA;EACA;;AAEA;EAEI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,OCzBD","file":"style.css"}
->>>>>>> 0d7550815ceec0d8abf02c28a427fd08ea61c7da
