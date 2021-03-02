@@ -142,7 +142,7 @@ nav a:hover {
 .header-ancestro {
     /* border: 1px solid yellow; */
     height: 100vmax;
-    background-image: url(assets/img/plano3d.gif);
+    background-color: #eeeeee;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -152,6 +152,16 @@ nav a:hover {
     border: 1px solid red; */
     height: 25%;
 }
+.numero00 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.numero00 h2 {
+    font-size: 80px;
+    color: #414141;
+    margin: 40px 0px 0px;
+}
 .header-f1 p {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -159,21 +169,22 @@ nav a:hover {
     font-size: 10px;
 }
 .header-padre-centro {
+    /* background-color: rgba(0, 128, 0, 0.364); */
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
 .header-monitor {
-    border: 5px solid #323232;
+    border: 3px solid #323232;
     border-radius: 10px;
-    background-color: #0c0c0c;
-    filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5));
+    background-color: #212121;
+    /* filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5)); */
     width: 88%;
     padding: 40px 0px;
-    margin-bottom: 70px;
+    margin: 0;
 }
 .header-monitor p {
     padding: 0% 10%;
@@ -182,16 +193,15 @@ nav a:hover {
 }
 .header-padre-centro a img {
     width: 40px;
-    margin: ;
     position: relative;
     animation-name: flechaabajo;
     animation-duration: 1s;
-    animation-iteration-count: 20;
+    animation-iteration-count: 30;
 }
 @keyframes flechaabajo {
     0%   {left:0px; top:0px;}
-    50%  {filter: drop-shadow(0px 1px 2px #14ffeb3c);left:0px; top:20px;}
-    100% {filter: drop-shadow(0px 1px 5px #14ffeba1); left:0px; top:0px;}
+    50%  {filter: drop-shadow(0px 1px 2px #af0404);left:0px; top:20px;}
+    100% {filter: drop-shadow(0px 1px 5px #ff0000); left:0px; top:0px;}
   }
 .flecha-abajo a img:hover {
     width: 50px;
@@ -207,7 +217,7 @@ nav a:hover {
 .typing1::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #0c0c0c;
+    background-color: #212121;
     right: 0;
     width: 1%;
     height: 25px;
@@ -218,7 +228,7 @@ nav a:hover {
 .typing2::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #0c0c0c;
+    background-color: #212121;
     right: 0;
     width: 1%;
     height: 25px;
@@ -229,7 +239,7 @@ nav a:hover {
 .typing3::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #0c0c0c;
+    background-color: #212121;
     right: 0;
     width: 1%;
     height: 25px;
@@ -359,47 +369,9 @@ nav a:hover {
     font-family: 'Aldrich', sans-serif;
 }
 
-
-/* --------------HISTORIA 1 PARALAX---------------- */
-.historia1 {
-    
-}
-
-
-/* .historia1-ancestro {
-    border: 1px solid yellow;
-    height: 100vmax;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: cadetblue fixed no-repeat 50% 50%;
-    background-image: url(assets/img/teclado1.jpg);
-    background-size: cover;
-    object-fit: cover;
-} */
-
-/* .historia-transicion {
-    border: 1px solid red;
-    height: 150px;
-    background: rgb(34,40,49);
-    background: linear-gradient(180deg, rgba(34,40,49,1) 0%, rgba(255,255,255,0) 100%);
-}
-.historia1-padre {
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.historia-txt {
-    border: 1px solid cyan;
-    color: #ececec;
-    text-align: center;
-    padding: 0px 20px;
-} */
-
-/* --------SKILLS---------------------- */
-
-/* --------FOOTER----------------------- */
+/* ------------------------------------- */
+/* --------FOOTER--- */
+/* -------------------------------------- */
 .footer-ancestro {
     /* border: 1px solid yellow; */
     background-color: #212121;
@@ -407,11 +379,13 @@ nav a:hover {
     position: absolute;
     z-index: ;
 }
+/* -----CONTENEDOR DEL EXTREMO SUPERIOR---- */
 .footer-padre {
     /* background-color: rgba(255, 0, 0, 0.063);
     border: 1px solid red; */
     height: 25%;
 }
+/*----SUPERIOR- IZQUIERDA--------------- */
 .footer-f1-correo {
     display: flex;
     flex-direction: column;
@@ -434,17 +408,20 @@ nav a:hover {
     color: #0d7377;
     text-align: end;
 }
+/* ----LINEA VERTICAL DE LOS EXTREMOS----- */
 .footer-f1 p {
     writing-mode: vertical-rl;
     text-orientation: upright;
     margin: 40px auto 0px ;
     font-size: 10px;
 }
+/*------SUPERIOR DERECHA------------------- */
 .numero05 h2 {
     font-size: 80px;
     color: #323232;
     margin: 15px 0px 0px;
 }
+/* -----CONTENEDOR DEL CENTRO-------------- */
 .footer-padre-centro {
     /* background-color: rgba(100, 148, 237, 0.035); */
     height: 50%;
@@ -454,6 +431,7 @@ nav a:hover {
     align-items: center;
     text-align: center;
 }
+/* -----TITULO DEL CENTRO------------------ */
 .footer-centro-titulo {
     /* background-color: rgba(218, 112, 214, 0.083); */
 }
@@ -463,6 +441,7 @@ nav a:hover {
     padding: 0;
     text-align: center;
 }
+/* -----CONTENEDOR DE LOS COMENTARIOS DEL CENTRO------- */
 .footer-centro-comentarios {
     /* background-color: rgba(0, 250, 154, 0.097); */
 }
@@ -477,6 +456,7 @@ nav a:hover {
     text-align: start;
     color: #0d7377;
 }
+/* -----CONTENEDOR INFERIOR DERECHO------------------- */
 .footer-redes {
     /* background-color: rgba(205, 92, 92, 0.07); */
     display: flex;
@@ -485,6 +465,7 @@ nav a:hover {
     justify-content: flex-start;
     align-items: center;
 }
+/*     CONTENEDOR DE LOS ICONOS DE REDES SOCIALES------ */
 .footer-redes-cont {
     /* background-color: rgba(255, 255, 0, 0.2); */
     width: 35px;
