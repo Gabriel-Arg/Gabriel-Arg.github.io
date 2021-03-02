@@ -142,7 +142,7 @@ nav a:hover {
 .header-ancestro {
     /* border: 1px solid yellow; */
     height: 100vmax;
-    background-image: url(assets/img/plano3d.gif);
+    background-color: #eeeeee;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -152,6 +152,16 @@ nav a:hover {
     border: 1px solid red; */
     height: 25%;
 }
+.numero00 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.numero00 h2 {
+    font-size: 80px;
+    color: #414141;
+    margin: 40px 0px 0px;
+}
 .header-f1 p {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -159,21 +169,22 @@ nav a:hover {
     font-size: 10px;
 }
 .header-padre-centro {
+    /* background-color: rgba(0, 128, 0, 0.364); */
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
 .header-monitor {
-    border: 5px solid #323232;
+    border: 3px solid #323232;
     border-radius: 10px;
-    background-color: #0c0c0c;
-    filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5));
+    background-color: #212121;
+    /* filter: drop-shadow(1px 1px  1px rgba(0, 0, 0, 0.5)); */
     width: 88%;
     padding: 40px 0px;
-    margin-bottom: 70px;
+    margin: 0;
 }
 .header-monitor p {
     padding: 0% 10%;
@@ -190,8 +201,8 @@ nav a:hover {
 }
 @keyframes flechaabajo {
     0%   {left:0px; top:0px;}
-    50%  {filter: drop-shadow(0px 1px 2px #14ffeb3c);left:0px; top:20px;}
-    100% {filter: drop-shadow(0px 1px 5px #14ffeba1); left:0px; top:0px;}
+    50%  {filter: drop-shadow(0px 1px 2px #af0404);left:0px; top:20px;}
+    100% {filter: drop-shadow(0px 1px 5px #ff0000); left:0px; top:0px;}
   }
 .flecha-abajo a img:hover {
     width: 50px;
@@ -207,7 +218,7 @@ nav a:hover {
 .typing1::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #0c0c0c;
+    background-color: #212121;
     right: 0;
     width: 1%;
     height: 25px;
@@ -218,7 +229,7 @@ nav a:hover {
 .typing2::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #0c0c0c;
+    background-color: #212121;
     right: 0;
     width: 1%;
     height: 25px;
@@ -229,7 +240,7 @@ nav a:hover {
 .typing3::after {
     content: "";
     /* border-left: 4px solid #ff0000; */
-    background-color: #0c0c0c;
+    background-color: #212121;
     right: 0;
     width: 1%;
     height: 25px;

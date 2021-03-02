@@ -70,7 +70,10 @@
     .modal-footer {
         padding: 4px;
     }
-
+    .numero00 h2 {
+        font-size: 5rem;
+        margin: 40px 0px 0px;
+    }
     .historia1-ancestro {
         height: 100vmin;
     }
@@ -118,6 +121,7 @@
     .numero01 h2 {
         font-size: 9rem;
         margin: 0;
+        text-align: center;
     }
 
     /* -----------HISTORIA 1-------------- */
