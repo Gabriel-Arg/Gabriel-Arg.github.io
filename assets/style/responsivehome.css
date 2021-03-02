@@ -74,6 +74,12 @@
         font-size: 5rem;
         margin: 40px 0px 0px;
     }
+
+    /*    PARALAX 1 ANTES DE SKILLS */
+    .conten-ancestro {
+        height: 100vmin;
+    }
+
     .historia1-ancestro {
         height: 100vmin;
     }
