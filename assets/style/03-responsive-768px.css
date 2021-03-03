@@ -54,9 +54,34 @@
     /* ---------------------------- */
     /* ----SKILLS- */
     /* ---------------------------- */
-    .skills-ancestro {
+    .skill-ancestro {
         height: 100vmin;
     }
+    .skill-conten-superior {
+        margin-top: 20px;
+    }
+    #titulo-skill {
+        font-size: 5rem;
+    }
+    .skill-linea {
+        height: 50px;
+    }
+    .skill-sup-der {
+        padding-right: 4rem;
+    }
+    #numero02 {
+        font-size: 9rem;
+    }
+
+
+
+
+
+
+
+
+
+
 
     /* ---------FOOTER-------------------- */
     .footer-ancestro  {
