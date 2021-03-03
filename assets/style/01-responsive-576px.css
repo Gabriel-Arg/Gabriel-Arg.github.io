@@ -1,0 +1,53 @@
+/* -------------------------------------------------------- */
+/*    CELULAR    */
+/* -------------------------------------------------------- */
+
+@media screen and (max-width: 576px) {
+    .menu-container-fluid, .menu-container, .menu-row {
+        height: auto;
+    }
+    .burger-icon {
+        display: flex;
+    }
+
+    /*---------- MENU ACTIVO Y OCULTO -----*/
+    .menu-activo {
+        background-color: #252525;
+        height: 100%;
+        width: 80vw;
+        padding: 90px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 2;
+        transition: 0.4s;
+    }
+    .menu-activo ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-activo li {
+        margin: 20px 0px 20px 50px;
+    }
+    .menu-activo li a {
+        color: #14ffec;
+        font-size: 20px;
+    }
+    .menu-contacto {
+        height: 100%;
+        background-color: #414141;
+        border-radius: 6px 6px 0px 0px;
+    }
+    .menu-activo .menu-contacto a {
+        color: #eeeeee;
+    }
+    .menu-oculto {
+        left: -80vw;
+    }
+}
+

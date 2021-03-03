@@ -1,0 +1,83 @@
+/*---------------------------------------- */
+/*    TABLET    */
+/* --------------------------------------- */
+
+@media screen and (min-width: 768px) {
+
+    /* -------BOTON DE CONTACTO------ */
+    .contacto-button {
+        width: 70px;
+        height: 70px;
+        top: 5px;
+        left: 5vw;
+        z-index: 1;
+    }
+
+    /* ------HEADER-------------------- */
+    .header-ancestro  {
+        height: 100vmin;
+    }
+    .header-padre-centro h5 {
+        padding: 0% 20%;
+    }
+    .header-monitor {
+        width: 60%;
+        padding: 40px 0px;
+    }
+    .flecha-abajo a img {
+        margin-right: 30vmax;
+    }
+
+    /* --------SOBRE MI--------------- */
+    .sobremi-ancestro  {
+        height: 100vmin;
+    }
+    .sobremi-f1-izq h2 {
+        font-size: 4.5rem;
+        margin-left: 200px;
+    }
+    .sobremi-centro-izq h2 {
+        font-size: 4.5rem;
+        margin-left: 200px;
+    }
+    .numero01 h2 {
+        font-size: 9rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    /* -----------HISTORIA 1-------------- */
+    .historia1-ancestro  {
+        height: 100vmin;
+    }
+
+    /* ---------------------------- */
+    /* ----SKILLS- */
+    /* ---------------------------- */
+    .skills-ancestro {
+        height: 100vmin;
+    }
+
+    /* ---------FOOTER-------------------- */
+    .footer-ancestro  {
+        height: 100vmin;
+    }
+    .numero05 h2 {
+        font-size: 9rem;
+        margin: 20px 0px 0px 30%;
+    }
+    .footer-padre-centro h5 {
+        padding: 0% 20%;
+    }
+    .footer-centro-titulo h2 {
+        font-size: 4rem;
+    }
+    .footer-redes {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-redes-cont {
+        margin: 0px 10px 0px;
+    }
+
+}
