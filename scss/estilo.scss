@@ -112,3 +112,22 @@
         }
     }
 }
+
+// ---------------------------------------
+//      SKILLS
+// ---------------------------------------
+.skills-ancestro {
+    border: 1px solid red;
+    background-color: $color-grisoscuro1;
+    height: 100vmax;
+
+    .skills-conten-sup {
+        background-color: rgba(121, 47, 119, 0.576);
+        height: 25%;
+    }
+
+    .skills-conten-inf {
+        background-color: rgba(255, 0, 0, 0.076);
+        height: 75%;
+    }
+}

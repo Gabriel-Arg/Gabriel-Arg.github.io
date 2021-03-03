@@ -69,4 +69,18 @@
   color: #212121;
 }
 
+.skills-ancestro {
+  border: 1px solid red;
+  background-color: #212121;
+  height: 100vmax;
+}
+.skills-ancestro .skills-conten-sup {
+  background-color: rgba(121, 47, 119, 0.576);
+  height: 25%;
+}
+.skills-ancestro .skills-conten-inf {
+  background-color: rgba(255, 0, 0, 0.076);
+  height: 75%;
+}
+
 /*# sourceMappingURL=style.css.map */
