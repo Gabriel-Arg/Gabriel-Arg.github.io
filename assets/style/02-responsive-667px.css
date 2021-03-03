@@ -1,0 +1,40 @@
+/* --------------------------------------------------- */
+/*     CELULAR HORIZONTAL */
+/* --------------------------------------------------- */
+
+@media screen and (min-width: 667px) {
+    .modal-content {
+        width: 500px;
+    }
+    .foto-perfil {
+        left: 35%;
+        top: -120px;
+    }
+    .modal-body {
+        display: flex;
+        padding-bottom: 0;
+    }
+    .modal-body .row {
+        /* border: 1px solid red; */
+        width: 150px;
+        margin: 20px 0px;
+        justify-content: space-around;
+    }
+    .modal-footer {
+        padding: 4px;
+    }
+    .numero00 h2 {
+        font-size: 5rem;
+        margin: 40px 0px 0px;
+    }
+
+    /*    PARALAX 1 ANTES DE SKILLS */
+    .conten-ancestro {
+        height: 100vmin;
+    }
+
+    .historia1-ancestro {
+        height: 100vmin;
+    }
+    
+}
