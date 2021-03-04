@@ -46,7 +46,7 @@
             .extremo-inf-izq {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: flex-start;
                 align-items: center;
     
                 .flecha {
@@ -59,7 +59,7 @@
                         position: relative;
                         animation-name: flechaabajo;
                         animation-duration: 1s;
-                        animation-iteration-count: 20;
+                        animation-iteration-count: infinite;
                     }
                 }
             }
@@ -142,7 +142,7 @@
             }
 
             .skill-linea {
-                background-color: $color-grisclaro2;
+                background-color: $color-grisclaro1;
                 height: 14px;
                 width: 30%;
             }
@@ -155,17 +155,62 @@
             align-items: center;
 
             h2 {
-                color: $color-grisclaro2;
+                color: $color-grisclaro1;
                 font-size: 80px;
             }
         }
     }
 
     .skill-conten-centro {
-        background-color: rgba(255, 255, 0, 0.111);
+        // border: 1px solid yellow;
+        height: 70%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .skill-centro-izq {
+            // border: 1px solid aqua;
+            height: 100%;
+            width: 35%;
+            padding-right: 10px;
+            border-right: 1px solid $color-celesteoscuro;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+
+            p {
+                color: $color-celesteclaro;
+                text-align: end;
+            }
+        }
+
+        .skill-centro-der {
+            // background-color: rgba(126, 252, 0, 0.022);
+            height: 100%;
+            width: 65%;
+            padding: 0px 10px;
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+
+            .skill-icon {
+                width: 40px;
+                margin: 10px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 
     .skill-conten-inferior {
         border: 1px solid rgb(220, 20, 60);
+        height: 15%;
     }
 }
