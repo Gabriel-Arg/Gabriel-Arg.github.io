@@ -125,7 +125,7 @@
 
     .skill-conten-superior {
         // border: 1px solid blue;
-        padding-top: 25px;
+        padding-top: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -244,12 +244,19 @@
             width: 50%;
             height: 100%;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-evenly;
 
             .skill-icon {
                 width: 40px;
                 margin: 0px 5px 0px 0px;
+            }
+
+            .skill-icon:hover {
+                width: 60px;
+                margin: 8px 3px;
+                filter: $color-efectohover;
+                transition: 0.3s;
             }
         }
     }
