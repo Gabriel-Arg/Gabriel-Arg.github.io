@@ -236,7 +236,8 @@
             align-items: flex-start;
 
             p {
-                color: $color-celesteoscuro
+                color: $color-celesteoscuro;
+                text-align: end;
             }
         }
 
@@ -250,13 +251,6 @@
             .skill-icon {
                 width: 40px;
                 margin: 0px 5px 0px 0px;
-            }
-
-            .skill-icon:hover {
-                width: 60px;
-                margin: 8px 3px;
-                filter: $color-efectohover;
-                transition: 0.3s;
             }
         }
     }
