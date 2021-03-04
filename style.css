@@ -26,7 +26,7 @@
 .conten-ancestro .filtro-paralax .conten-extremos .extremo-inf-izq {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .conten-ancestro .filtro-paralax .conten-extremos .extremo-inf-izq .flecha {
@@ -38,7 +38,7 @@
   position: relative;
   animation-name: flechaabajo;
   animation-duration: 1s;
-  animation-iteration-count: 20;
+  animation-iteration-count: infinite;
 }
 .conten-ancestro .filtro-paralax .conten-centro {
   height: 50%;
@@ -90,7 +90,7 @@
   margin: 0;
 }
 .skill-ancestro .skill-conten-superior .skill-sup-izq .skill-linea {
-  background-color: #414141;
+  background-color: #323232;
   height: 14px;
   width: 30%;
 }
@@ -100,14 +100,51 @@
   align-items: center;
 }
 .skill-ancestro .skill-conten-superior .skill-sup-der h2 {
-  color: #414141;
+  color: #323232;
   font-size: 80px;
 }
 .skill-ancestro .skill-conten-centro {
-  background-color: rgba(255, 255, 0, 0.111);
+  height: 70%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.skill-ancestro .skill-conten-centro .skill-centro-izq {
+  height: 100%;
+  width: 35%;
+  padding-right: 10px;
+  border-right: 1px solid #0d7377;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.skill-ancestro .skill-conten-centro .skill-centro-izq p {
+  color: #14ffec;
+  text-align: end;
+}
+.skill-ancestro .skill-conten-centro .skill-centro-der {
+  height: 100%;
+  width: 65%;
+  padding: 0px 10px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.skill-ancestro .skill-conten-centro .skill-centro-der .skill-icon {
+  width: 40px;
+  margin: 10px;
+}
+.skill-ancestro .skill-conten-centro .skill-centro-der .skill-icon img {
+  width: 100%;
 }
 .skill-ancestro .skill-conten-inferior {
   border: 1px solid crimson;
+  height: 15%;
 }
 
 /*# sourceMappingURL=style.css.map */
