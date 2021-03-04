@@ -125,7 +125,7 @@
 
     .skill-conten-superior {
         // border: 1px solid blue;
-        padding-top: 25px;
+        padding-top: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -236,7 +236,8 @@
             align-items: flex-start;
 
             p {
-                color: $color-celesteoscuro
+                color: $color-celesteoscuro;
+                text-align: end;
             }
         }
 
@@ -244,7 +245,7 @@
             width: 50%;
             height: 100%;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-evenly;
 
             .skill-icon {
