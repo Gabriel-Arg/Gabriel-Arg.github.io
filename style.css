@@ -75,7 +75,7 @@
   flex-direction: column;
 }
 .skill-ancestro .skill-conten-superior {
-  padding-top: 25px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,12 +167,13 @@
 }
 .skill-ancestro .skill-conten-inferior .skill-inf-izq p {
   color: #0d7377;
+  text-align: end;
 }
 .skill-ancestro .skill-conten-inferior .skill-inf-der {
   width: 50%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 .skill-ancestro .skill-conten-inferior .skill-inf-der .skill-icon {
