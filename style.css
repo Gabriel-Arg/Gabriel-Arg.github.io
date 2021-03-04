@@ -75,7 +75,7 @@
   flex-direction: column;
 }
 .skill-ancestro .skill-conten-superior {
-  padding: 0;
+  padding-top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@
   font-size: 80px;
 }
 .skill-ancestro .skill-conten-centro {
-  height: 70%;
+  height: 65%;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -114,16 +114,16 @@
 .skill-ancestro .skill-conten-centro .skill-centro-izq {
   height: 100%;
   width: 35%;
-  padding-right: 10px;
-  border-right: 1px solid #0d7377;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
 }
 .skill-ancestro .skill-conten-centro .skill-centro-izq p {
-  color: #14ffec;
+  color: #0d7377;
   text-align: end;
+  border-right: 1px solid #0d7377;
+  padding-right: 10px;
 }
 .skill-ancestro .skill-conten-centro .skill-centro-der {
   height: 100%;
@@ -137,14 +137,47 @@
 }
 .skill-ancestro .skill-conten-centro .skill-centro-der .skill-icon {
   width: 40px;
-  margin: 10px;
+  margin: 16px 13px;
+  cursor: pointer;
 }
 .skill-ancestro .skill-conten-centro .skill-centro-der .skill-icon img {
   width: 100%;
 }
+.skill-ancestro .skill-conten-centro .skill-centro-der .skill-icon:hover {
+  width: 60px;
+  margin: 8px 3px;
+  filter: drop-shadow(1px 1px 10px #0d7377);
+  transition: 0.3s;
+}
 .skill-ancestro .skill-conten-inferior {
-  border: 1px solid crimson;
-  height: 15%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-ancestro .skill-conten-inferior .skill-inf-izq {
+  width: 50%;
+  height: 100%;
+  padding-right: 5px;
+  border-right: 1px solid #0d7377;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.skill-ancestro .skill-conten-inferior .skill-inf-izq p {
+  color: #0d7377;
+}
+.skill-ancestro .skill-conten-inferior .skill-inf-der {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skill-ancestro .skill-conten-inferior .skill-inf-der .skill-icon {
+  width: 40px;
+  margin: 0px 5px 0px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
