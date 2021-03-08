@@ -162,7 +162,7 @@
   padding-right: 5px;
   border-right: 1px solid #0d7377;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: flex-start;
 }
 .skill-ancestro .skill-conten-inferior .skill-inf-izq p {
@@ -179,6 +179,16 @@
 .skill-ancestro .skill-conten-inferior .skill-inf-der .skill-icon {
   width: 40px;
   margin: 0px 5px 0px 0px;
+  cursor: pointer;
+}
+.skill-ancestro .skill-conten-inferior .skill-inf-der .skill-icon img {
+  width: 100%;
+}
+.skill-ancestro .skill-conten-inferior .skill-inf-der .skill-icon:hover {
+  width: 60px;
+  margin: 8px 3px;
+  filter: drop-shadow(1px 1px 10px #0d7377);
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */
