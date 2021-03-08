@@ -15,6 +15,11 @@ a {
   font-size: 14px;
   color: #0d7377;
 }
+ul, li {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 14px;
+  color: #0d7377;
+}
 
 /* -------MENU--------------------------------- */
 .burger-icon {
