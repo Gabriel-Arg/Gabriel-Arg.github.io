@@ -266,3 +266,57 @@
         }
     }
 }
+
+// ---------------------------------------
+//    SERVICIOS
+// ---------------------------------------
+.servicios-ancestro {
+    border: 1px solid magenta;
+    background-color: $color-blanco;
+    height: 100vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .servicios-sup {
+        border: 1px solid blue;
+
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-between;
+        align-items: baseline;
+
+        .servicios-numero {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+
+            h2 {
+                color: $color-filtrogris2;
+                font-size: 80px;
+            }
+
+            .servicios-linea {
+                background-color: $color-filtrogris2;
+                height: 14px;
+                width: 28vh;
+            }
+        }
+
+        .servicios-titulo {
+
+            h2 {
+                font-size: 40px;
+                margin: 0;
+                color: $color-grisoscuro1;
+            }
+        }
+
+    }
+
+    .servicios-inf {
+        border: 1px solid rgb(255, 0, 76);
+    }
+}
