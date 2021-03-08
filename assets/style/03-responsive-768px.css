@@ -73,6 +73,44 @@
         font-size: 9rem;
     }
 
+    /* ---------------------------- */
+    /* ----SERVICIOS   - */
+    /* ---------------------------- */
+    .servicios-ancestro {
+        height: 100vmin;
+    }
+    .servicios-sup {
+        /* background-color: rgba(255, 166, 0, 0.405); */
+    }
+    .servicios-numero {
+        justify-content: flex-start;
+    }
+    #numero03 {
+        font-size: 9rem;
+    }
+    #servi-linea {
+        /* width: 60vh; */
+    }
+    #servicios-titulo {
+        font-size: 5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* ---------FOOTER-------------------- */
     .footer-ancestro  {

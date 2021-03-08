@@ -191,4 +191,44 @@
   transition: 0.3s;
 }
 
+.servicios-ancestro {
+  border: 1px solid magenta;
+  background-color: #eeeeee;
+  height: 100vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.servicios-ancestro .servicios-sup {
+  border: 1px solid blue;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.servicios-ancestro .servicios-sup .servicios-numero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.servicios-ancestro .servicios-sup .servicios-numero h2 {
+  color: #2121213c;
+  font-size: 80px;
+}
+.servicios-ancestro .servicios-sup .servicios-numero .servicios-linea {
+  background-color: #2121213c;
+  height: 14px;
+  width: 28vh;
+}
+.servicios-ancestro .servicios-sup .servicios-titulo h2 {
+  font-size: 40px;
+  margin: 0;
+  color: #212121;
+}
+.servicios-ancestro .servicios-inf {
+  border: 1px solid #ff004c;
+}
+
 /*# sourceMappingURL=style.css.map */
