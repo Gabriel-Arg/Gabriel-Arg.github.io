@@ -243,6 +243,7 @@
 .servicios-ancestro .servicios-centro .servicio-info p {
   color: #252525;
   margin-bottom: 10px;
+  line-height: 17px;
 }
 .servicios-ancestro .servicios-inf {
   width: 100%;
@@ -252,14 +253,14 @@
 .servicios-ancestro .servicios-inf #parrafo-colapso {
   color: #212121;
 }
-.servicios-ancestro .servicios-inf .accordion .accordion-item .accordion-header:hover {
-  background-color: #414141;
+.servicios-ancestro .servicios-inf .accordion-button:not(.collapsed) {
+  color: #14ffec;
+  background-color: #323232;
 }
 .servicios-ancestro .servicios-inf .accordion .accordion-item .accordion-header button:hover {
   color: #14ffec;
-}
-.servicios-ancestro .servicios-inf .accordion .accordion-item .accordion-header button:active {
-  background-color: #0d7377;
+  transition: 0.4s;
+  background-color: #414141;
 }
 
 /*# sourceMappingURL=style.css.map */
