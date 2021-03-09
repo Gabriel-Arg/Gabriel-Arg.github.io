@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .conten-ancestro {
   background-color: #eeeeee;
   height: 100vmax;
@@ -220,29 +221,72 @@
   margin: 0;
   color: #212121;
 }
-.servicios-ancestro .servicios-inf {
+.servicios-ancestro .servicios-centro {
   display: flex;
   flex-flow: wrap row;
   justify-content: center;
   align-items: center;
 }
-.servicios-ancestro .servicios-inf .servicios-img {
+.servicios-ancestro .servicios-centro .servicios-img {
   width: 15vh;
   margin-bottom: 10px;
 }
-.servicios-ancestro .servicios-inf .servicios-img img {
+.servicios-ancestro .servicios-centro .servicios-img img {
   width: 100%;
 }
-.servicios-ancestro .servicios-inf .servicio-info {
+.servicios-ancestro .servicios-centro .servicio-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: justify;
 }
-.servicios-ancestro .servicios-inf .servicio-info p {
+.servicios-ancestro .servicios-centro .servicio-info p {
   color: #252525;
   margin-bottom: 10px;
+}
+.servicios-ancestro .servicios-inf {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.servicios-ancestro .servicios-inf .desplegables-container .btn-desplegable {
+  border: none;
+  background-color: #2121213c;
+  color: #212121;
+  cursor: pointer;
+  padding: 10px 10px 10px 10%;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Aldrich", sans-serif;
+  font-size: 20px;
+}
+.servicios-ancestro .servicios-inf .desplegables-container .active, .servicios-ancestro .servicios-inf .desplegables-container .btn-desplegable:hover {
+  background-color: #212121;
+  color: #14ffec;
+}
+.servicios-ancestro .servicios-inf .desplegables-container .btn-desplegable:after {
+  content: "+";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.servicios-ancestro .servicios-inf .desplegables-container .active:after {
+  content: "−";
+}
+.servicios-ancestro .servicios-inf .desplegables-container .panel {
+  padding: 10px;
+  display: none;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.servicios-ancestro .servicios-inf .desplegables-container .panel p {
+  font-family: "Aldrich", sans-serif;
+  margin: 0;
+  color: #212121;
 }
 
 /*# sourceMappingURL=style.css.map */
