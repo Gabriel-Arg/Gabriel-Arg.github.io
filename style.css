@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .conten-ancestro {
   background-color: #eeeeee;
   height: 100vmax;
@@ -71,12 +70,12 @@
 }
 
 .skill-ancestro {
-  height: 100vmax;
+  height: 105vmax;
   display: flex;
   flex-direction: column;
 }
 .skill-ancestro .skill-conten-superior {
-  padding-top: 10px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,8 +99,8 @@
   font-size: 50px;
 }
 .skill-ancestro .skill-conten-centro {
-  height: 65%;
-  padding: 0;
+  height: auto;
+  padding: 0px 0px 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -250,43 +249,17 @@
   padding: 0;
   margin-bottom: 30px;
 }
-.servicios-ancestro .servicios-inf .desplegables-container .btn-desplegable {
-  border: none;
-  background-color: #2121213c;
+.servicios-ancestro .servicios-inf #parrafo-colapso {
   color: #212121;
-  cursor: pointer;
-  padding: 10px 10px 10px 10%;
-  width: 100%;
-  text-align: left;
-  outline: none;
-  transition: 0.4s;
-  font-family: "Aldrich", sans-serif;
-  font-size: 20px;
 }
-.servicios-ancestro .servicios-inf .desplegables-container .active, .servicios-ancestro .servicios-inf .desplegables-container .btn-desplegable:hover {
-  background-color: #212121;
+.servicios-ancestro .servicios-inf .accordion .accordion-item .accordion-header:hover {
+  background-color: #414141;
+}
+.servicios-ancestro .servicios-inf .accordion .accordion-item .accordion-header button:hover {
   color: #14ffec;
 }
-.servicios-ancestro .servicios-inf .desplegables-container .btn-desplegable:after {
-  content: "+";
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-.servicios-ancestro .servicios-inf .desplegables-container .active:after {
-  content: "−";
-}
-.servicios-ancestro .servicios-inf .desplegables-container .panel {
-  padding: 10px;
-  display: none;
-  overflow: hidden;
-  transition: 0.4s;
-}
-.servicios-ancestro .servicios-inf .desplegables-container .panel p {
-  font-family: "Aldrich", sans-serif;
-  margin: 0;
-  color: #212121;
+.servicios-ancestro .servicios-inf .accordion .accordion-item .accordion-header button:active {
+  background-color: #0d7377;
 }
 
 /*# sourceMappingURL=style.css.map */
