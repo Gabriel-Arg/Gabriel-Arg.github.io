@@ -382,7 +382,7 @@
 
         </div>
 
-        <div class="container servicios-inf">
+        <div class="container servicios-centro">
 
             <div class="servicios-img">
                 <img src="assets/icons/servicios.svg" alt="servicios">
@@ -400,9 +400,55 @@
 
 
         </div>
+
+        <div class="container-fluid servicios-inf">
+            <div class="container desplegables-container">
+                
+                <button class="btn-desplegable"> El plan </button>
+                <div class="panel">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, accusamus.
+                    </p>
+                </div>
+
+                <button class="btn-desplegable"> El despegue </button>
+                <div class="panel">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, accusamus.
+                    </p>
+                </div>
+
+                <button class="btn-desplegable"> El viaje </button>
+                <div class="panel">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, accusamus.
+                    </p>
+                </div>
+
+            </div>
+        </div>
     </div>
 
+    <script>
+        var acc = document.getElementsByClassName("btn-desplegable");
+        var i;
 
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
 
 
 

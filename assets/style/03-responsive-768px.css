@@ -91,14 +91,14 @@
     #servicios-titulo {
         font-size: 5rem;
     }
-    .servicios-ancestro .servicios-inf {
+    .servicios-ancestro .servicios-centro {
         justify-content: space-evenly;
     }
-    .servicios-ancestro .servicios-inf .servicios-img {
+    .servicios-ancestro .servicios-centro .servicios-img {
         width: 25vh;
         margin-right: 40px;
     }
-    .servicios-ancestro .servicios-inf .servicio-info {
+    .servicios-ancestro .servicios-centro .servicio-info {
         text-align: center;
     }
 
