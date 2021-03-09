@@ -95,8 +95,8 @@
         justify-content: space-evenly;
     }
     .servicios-ancestro .servicios-inf .servicios-img {
-        width: 45vh;
-        margin: 0;
+        width: 25vh;
+        margin-right: 40px;
     }
     .servicios-ancestro .servicios-inf .servicio-info {
         text-align: center;
