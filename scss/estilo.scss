@@ -118,13 +118,13 @@
 // ---------------------------------------
 .skill-ancestro {
     // border: 1px solid red;
-    height: 100vmax;
+    height: 105vmax;
     display: flex;
     flex-direction: column;
 
     .skill-conten-superior {
         // border: 1px solid blue;
-        padding-top: 10px;
+        padding-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -156,8 +156,8 @@
 
     .skill-conten-centro {
         // border: 1px solid yellow;
-        height: 65%;
-        padding: 0;
+        height: auto;
+        padding: 0px 0px 20px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -345,50 +345,21 @@
         padding: 0;
         margin-bottom: 30px;
 
-        .desplegables-container {
-            // border: 1px solid black;
+        #parrafo-colapso {
+            color: $color-grisoscuro1
+        }
 
-            .btn-desplegable {
-                // border: 1px solid blue;
-                border: none;
-                background-color: $color-filtrogris2;
-                color: $color-grisoscuro1;
-                cursor: pointer;
-                padding: 10px 10px 10px 10%;
-                width: 100%;
-                text-align: left;
-                outline: none;
-                transition: 0.4s;
-                font-family: $fuente-subtitulos;
-                font-size: 20px;
-            }
-            .active, .btn-desplegable:hover {
-                background-color: $color-grisoscuro1;
-                color: $color-celesteclaro;
-            }
-            .btn-desplegable:after {
-                content: '\002B';
-                color: #777;
-                font-weight: bold;
-                float: right;
-                margin-left: 5px;
-            }
-            .active:after {
-                content: "\2212";
-            }
-            .panel {
-                padding: 10px;
-                // background-color: $color-grisclaro1;
-                display: none;
-                overflow: hidden;
-                transition: 0.4s;
-
-                p {
-                    font-family: $fuente-parrafos;
-                    margin: 0;
-                    color: $color-grisoscuro1;
-                }
-            }
+        .accordion .accordion-item .accordion-header {
+            // border: 1px solid red;
+        }
+        .accordion .accordion-item .accordion-header:hover {
+            background-color: $color-grisclaro2;
+        }
+        .accordion .accordion-item .accordion-header button:hover {
+            color: $color-celesteclaro;
+        }
+        .accordion .accordion-item .accordion-header button:active {
+            background-color: $color-celesteoscuro;
         }
     }
 }
