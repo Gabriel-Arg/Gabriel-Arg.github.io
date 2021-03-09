@@ -94,10 +94,16 @@
     #servicios-titulo {
         font-size: 5rem;
     }
-
-
-
-
+    .servicios-ancestro .servicios-inf {
+        justify-content: space-evenly;
+    }
+    .servicios-ancestro .servicios-inf .servicios-img {
+        width: 45vh;
+        margin: 0;
+    }
+    .servicios-ancestro .servicios-inf .servicio-info {
+        text-align: center;
+    }
 
 
 
