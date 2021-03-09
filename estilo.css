@@ -205,7 +205,7 @@ nav a:hover {
 }
 @keyframes flechaabajo {
   0%   {left:0px; top:0px;}
-  50%  {left:0px; top:20px;}
+  50%  {left:0px; top:15px;}
   100% {left:0px; top:0px;}
   /* 50%  {filter: drop-shadow(0px 1px 2px #af0404);left:0px; top:20px;}
   100% {filter: drop-shadow(0px 1px 5px #ff0000); left:0px; top:0px;} */

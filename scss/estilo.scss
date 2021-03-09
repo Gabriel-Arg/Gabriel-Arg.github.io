@@ -280,8 +280,9 @@
     align-items: center;
 
     .servicios-sup {
-        border: 1px solid blue;
-
+        // border: 1px solid blue;
+        padding: 0;
+        margin-bottom: 10px;
         display: flex;
         flex-flow: wrap row;
         justify-content: space-between;
@@ -317,6 +318,47 @@
     }
 
     .servicios-inf {
-        border: 1px solid rgb(255, 0, 76);
+        // border: 1px solid red;
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: center;
+        align-items: center;
+
+        .servicios-img {
+            width: 25vh;
+            margin-bottom: 20px;
+
+            img {
+                width: 100%;
+
+            }
+        }
+
+        .servicio-info {
+            // border: 1px solid black;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            p {
+                color: $color-grisoscuro2;
+            }
+
+            .servicios-flecha {
+                width: 40px;
+                height: 75px;
+
+                img {
+                    width: 100%;
+                    position: relative;
+                    animation-name: flechaabajo;
+                    animation-duration: 1s;
+                    animation-iteration-count: infinite;
+                }
+            }
+        }
     }
 }

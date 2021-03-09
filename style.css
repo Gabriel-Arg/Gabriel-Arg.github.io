@@ -201,7 +201,8 @@
   align-items: center;
 }
 .servicios-ancestro .servicios-sup {
-  border: 1px solid blue;
+  padding: 0;
+  margin-bottom: 10px;
   display: flex;
   flex-flow: wrap row;
   justify-content: space-between;
@@ -228,7 +229,39 @@
   color: #212121;
 }
 .servicios-ancestro .servicios-inf {
-  border: 1px solid #ff004c;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-items: center;
+}
+.servicios-ancestro .servicios-inf .servicios-img {
+  width: 25vh;
+  margin-bottom: 20px;
+}
+.servicios-ancestro .servicios-inf .servicios-img img {
+  width: 100%;
+}
+.servicios-ancestro .servicios-inf .servicio-info {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.servicios-ancestro .servicios-inf .servicio-info p {
+  color: #252525;
+}
+.servicios-ancestro .servicios-inf .servicio-info .servicios-flecha {
+  width: 40px;
+  height: 75px;
+}
+.servicios-ancestro .servicios-inf .servicio-info .servicios-flecha img {
+  width: 100%;
+  position: relative;
+  animation-name: flechaabajo;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
