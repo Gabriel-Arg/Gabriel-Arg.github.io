@@ -139,12 +139,6 @@
                 font-size: 40px;
                 margin: 0;
             }
-
-            .skill-linea {
-                background-color: $color-grisclaro1;
-                height: 14px;
-                width: 30%;
-            }
         }
 
         .skill-sup-der {
@@ -155,7 +149,7 @@
 
             h2 {
                 color: $color-grisclaro1;
-                font-size: 80px;
+                font-size: 50px;
             }
         }
     }
@@ -271,7 +265,7 @@
 //    SERVICIOS
 // ---------------------------------------
 .servicios-ancestro {
-    border: 1px solid magenta;
+    // border: 1px solid magenta;
     background-color: $color-blanco;
     height: 100vmax;
     display: flex;
@@ -283,6 +277,7 @@
         // border: 1px solid blue;
         padding: 0;
         margin-bottom: 10px;
+
         display: flex;
         flex-flow: wrap row;
         justify-content: space-between;
@@ -296,17 +291,12 @@
 
             h2 {
                 color: $color-filtrogris2;
-                font-size: 80px;
-            }
-
-            .servicios-linea {
-                background-color: $color-filtrogris2;
-                height: 14px;
-                width: 28vh;
+                font-size: 40px;
             }
         }
 
         .servicios-titulo {
+            margin-right: 20px;
 
             h2 {
                 font-size: 40px;

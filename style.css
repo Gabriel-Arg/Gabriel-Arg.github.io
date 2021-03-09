@@ -89,11 +89,6 @@
   font-size: 40px;
   margin: 0;
 }
-.skill-ancestro .skill-conten-superior .skill-sup-izq .skill-linea {
-  background-color: #323232;
-  height: 14px;
-  width: 30%;
-}
 .skill-ancestro .skill-conten-superior .skill-sup-der {
   display: flex;
   justify-content: center;
@@ -101,7 +96,7 @@
 }
 .skill-ancestro .skill-conten-superior .skill-sup-der h2 {
   color: #323232;
-  font-size: 80px;
+  font-size: 50px;
 }
 .skill-ancestro .skill-conten-centro {
   height: 65%;
@@ -192,7 +187,6 @@
 }
 
 .servicios-ancestro {
-  border: 1px solid magenta;
   background-color: #eeeeee;
   height: 100vmax;
   display: flex;
@@ -216,12 +210,10 @@
 }
 .servicios-ancestro .servicios-sup .servicios-numero h2 {
   color: #2121213c;
-  font-size: 80px;
+  font-size: 40px;
 }
-.servicios-ancestro .servicios-sup .servicios-numero .servicios-linea {
-  background-color: #2121213c;
-  height: 14px;
-  width: 28vh;
+.servicios-ancestro .servicios-sup .servicios-titulo {
+  margin-right: 20px;
 }
 .servicios-ancestro .servicios-sup .servicios-titulo h2 {
   font-size: 40px;
