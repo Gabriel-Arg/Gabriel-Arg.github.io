@@ -335,6 +335,7 @@
             p {
                 color: $color-grisoscuro2;
                 margin-bottom: 10px;
+                line-height: 17px;
             }
         }
     }
@@ -349,17 +350,24 @@
             color: $color-grisoscuro1
         }
 
+        .accordion-button:not(.collapsed) {
+            color: $color-celesteclaro;
+            background-color: $color-grisclaro1;
+        }
+
         .accordion .accordion-item .accordion-header {
             // border: 1px solid red;
         }
         .accordion .accordion-item .accordion-header:hover {
-            background-color: $color-grisclaro2;
+            
         }
         .accordion .accordion-item .accordion-header button:hover {
             color: $color-celesteclaro;
+            transition: 0.4s;
+            background-color: $color-grisclaro2;
         }
         .accordion .accordion-item .accordion-header button:active {
-            background-color: $color-celesteoscuro;
+            
         }
     }
 }
