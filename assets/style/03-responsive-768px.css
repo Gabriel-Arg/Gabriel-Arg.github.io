@@ -41,7 +41,7 @@
         margin-left: 200px;
     }
     .numero01 h2 {
-        font-size: 9rem;
+        font-size: 5rem;
         margin: 0;
         text-align: center;
     }
@@ -70,7 +70,7 @@
         padding-right: 4rem;
     }
     #numero02 {
-        font-size: 9rem;
+        font-size: 5rem;
     }
 
     /* ---------------------------- */
@@ -86,10 +86,7 @@
         justify-content: flex-start;
     }
     #numero03 {
-        font-size: 9rem;
-    }
-    #servi-linea {
-        /* width: 60vh; */
+        font-size: 5rem;
     }
     #servicios-titulo {
         font-size: 5rem;
@@ -123,7 +120,7 @@
         height: 100vmin;
     }
     .numero05 h2 {
-        font-size: 9rem;
+        font-size: 5rem;
         margin: 20px 0px 0px 30%;
     }
     .footer-padre-centro h5 {
