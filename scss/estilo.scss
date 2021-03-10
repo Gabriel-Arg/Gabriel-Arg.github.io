@@ -276,7 +276,7 @@
     .servicios-sup {
         // border: 1px solid blue;
         padding: 0;
-        margin-bottom: 10px;
+        margin: 20px 0px 10px;
 
         display: flex;
         flex-flow: wrap row;
@@ -307,68 +307,83 @@
 
     }
 
-    .servicios-centro {
+    .contenedor-serv {
         // border: 1px solid red;
-        display: flex;
-        flex-flow: wrap row;
-        justify-content: center;
-        align-items: center;
+        height: auto;
 
-        .servicios-img {
-            width: 15vh;
-            margin-bottom: 10px;
-
-            img {
-                width: 100%;
-
-            }
-        }
-
-        .servicio-info {
-            // border: 1px solid black;
+        .servicios-centro {
+            // border: 1px solid red;
+            height: auto;
             display: flex;
-            flex-direction: column;
+            flex-flow: wrap row;
             justify-content: center;
             align-items: center;
-            text-align: justify;
-
-            p {
-                color: $color-grisoscuro2;
+    
+            .servicios-img {
+                width: 15vh;
+                margin: 30px 0px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+    
+            .servicio-info {
+                // border: 1px solid black;
+                height: 50%;
+                padding: 0px 20px;
                 margin-bottom: 10px;
-                line-height: 17px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: justify;
+    
+                p {
+                    color: $color-grisoscuro2;
+                    margin-bottom: 10px;
+                    line-height: 17px;
+                }
             }
         }
-    }
 
-    .servicios-inf {
-        // height: 150px;
-        width: 100%;
-        padding: 0;
-        margin-bottom: 30px;
-
-        #parrafo-colapso {
-            color: $color-grisoscuro1;
-            text-align: justify;
-        }
-
-        .accordion-button:not(.collapsed) {
-            color: $color-celesteclaro;
-            background-color: $color-grisclaro1;
-        }
-
-        .accordion .accordion-item .accordion-header {
-            // border: 1px solid red;
-        }
-        .accordion .accordion-item .accordion-header:hover {
-            
-        }
-        .accordion .accordion-item .accordion-header button:hover {
-            color: $color-celesteclaro;
-            transition: 0.4s;
-            background-color: $color-grisclaro2;
-        }
-        .accordion .accordion-item .accordion-header button:active {
-            
+        .servicios-inf {
+            // height: 150px;
+            border-radius: 5px;
+            // border: 1px solid $color-filtrogris2;
+            // box-shadow: 1px 1px 3px $color-filtrogris;
+            width: 100%;
+            padding: 0;
+            margin-bottom: 30px;
+    
+            #parrafo-colapso {
+                color: $color-grisoscuro1;
+                text-align: justify;
+            }
+            #servicios-icon {
+                width: 30px;
+                margin-right: 20px;
+            }
+    
+            .accordion-button:not(.collapsed) {
+                color: $color-celesteclaro;
+                background-color: $color-grisclaro1;
+            }
+    
+            .accordion .accordion-item .accordion-header {
+                // border: 1px solid red;
+            }
+            .accordion .accordion-item .accordion-header:hover {
+                
+            }
+            .accordion .accordion-item .accordion-header button:hover {
+                color: $color-celesteclaro;
+                transition: 0.4s;
+                background-color: $color-grisclaro2;
+            }
+            .accordion .accordion-item .accordion-header button:active {
+                
+            }
         }
     }
 }
