@@ -113,6 +113,16 @@
     }
 }
 
+
+// ---------------------------------------
+//    HISTORIA 2
+// ---------------------------------------
+.history2-ancestro {
+    background-color: $color-blanco;
+    // border: 1px solid magenta;
+    height: 50px;
+}
+
 // ---------------------------------------
 //      SKILLS
 // ---------------------------------------
@@ -327,24 +337,6 @@
                     width: 100%;
                 }
             }
-    
-            .servicio-info {
-                // border: 1px solid black;
-                height: 50%;
-                padding: 0px 20px;
-                margin-bottom: 10px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                text-align: justify;
-    
-                p {
-                    color: $color-grisoscuro2;
-                    margin-bottom: 10px;
-                    line-height: 17px;
-                }
-            }
         }
 
         .servicios-inf {
@@ -361,8 +353,29 @@
                 text-align: justify;
             }
             #servicios-icon {
-                width: 30px;
+                width: 35px;
                 margin-right: 20px;
+            }
+            #acordion-body {
+                background-color: $color-filtrogris2;
+            }
+
+            .servicio-info {
+                // border: 1px solid black;
+                height: 50%;
+                padding: 0px 20px;
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: justify;
+    
+                p {
+                    color: $color-grisoscuro2;
+                    margin-bottom: 10px;
+                    line-height: 17px;
+                }
             }
     
             .accordion-button:not(.collapsed) {
@@ -386,4 +399,13 @@
             }
         }
     }
+}
+
+// ---------------------------------------
+//    HISTORIA 3
+// ---------------------------------------
+.history3-ancestro {
+    background-color: $color-blanco;
+    // border: 1px solid magenta;
+    height: 50px;
 }
