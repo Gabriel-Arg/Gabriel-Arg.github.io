@@ -17,6 +17,9 @@
     .header-ancestro  {
         height: 100vmin;
     }
+    .numero00 h2 {
+        font-size: 7rem;
+      }
     .header-padre-centro h5 {
         padding: 0% 20%;
     }
@@ -41,7 +44,7 @@
         margin-left: 200px;
     }
     .numero01 h2 {
-        font-size: 5rem;
+        font-size: 7rem;
         margin: 0;
         text-align: center;
     }
@@ -70,7 +73,7 @@
         padding-right: 4rem;
     }
     #numero02 {
-        font-size: 5rem;
+        font-size: 7rem;
     }
 
     /* ---------------------------- */
@@ -86,7 +89,7 @@
         justify-content: flex-start;
     }
     #numero03 {
-        font-size: 5rem;
+        font-size: 7rem;
     }
     #servicios-titulo {
         font-size: 5rem;

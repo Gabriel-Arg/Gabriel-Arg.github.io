@@ -78,6 +78,7 @@
   height: 105vmax;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 .skill-ancestro .skill-conten-superior {
   padding-top: 30px;
@@ -101,7 +102,7 @@
 }
 .skill-ancestro .skill-conten-superior .skill-sup-der h2 {
   color: #323232;
-  font-size: 50px;
+  font-size: 60px;
 }
 .skill-ancestro .skill-conten-centro {
   height: auto;
@@ -191,6 +192,11 @@
   transition: 0.3s;
 }
 
+.history2-ancestro {
+  background-color: #eeeeee;
+  height: 40px;
+}
+
 .servicios-ancestro {
   background-color: #eeeeee;
   height: auto;
@@ -215,7 +221,7 @@
 }
 .servicios-ancestro .servicios-sup .servicios-numero h2 {
   color: #2121213c;
-  font-size: 40px;
+  font-size: 60px;
 }
 .servicios-ancestro .servicios-sup .servicios-titulo {
   margin-right: 20px;
@@ -285,7 +291,7 @@
 }
 .history3-ancestro {
   background-color: #eeeeee;
-  height: 50px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
