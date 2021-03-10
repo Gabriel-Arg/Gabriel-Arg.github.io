@@ -91,12 +91,20 @@
     #servicios-titulo {
         font-size: 5rem;
     }
+    .servicios-ancestro .contenedor-serv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
     .servicios-ancestro .servicios-centro {
         justify-content: space-evenly;
     }
-    .servicios-ancestro .servicios-centro .servicios-img {
-        width: 25vh;
-        margin-right: 40px;
+    .servicios-ancestro .contenedor-serv .servicios-centro .servicios-img {
+        /* border: 1px solid blue; */
+        width: 40vh;
+        /* position: relative;
+        bottom: 50px; */
     }
     .servicios-ancestro .servicios-centro .servicio-info {
         text-align: center;

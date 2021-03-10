@@ -185,7 +185,7 @@
   filter: drop-shadow(1px 1px 10px #0d7377);
   transition: 0.3s;
 }
-
+/* ------------------------------------------------------------------------- */
 .servicios-ancestro {
   background-color: #eeeeee;
   height: auto;
@@ -196,7 +196,7 @@
 }
 .servicios-ancestro .servicios-sup {
   padding: 0;
-  margin-bottom: 10px;
+  margin: 20px 0px 10px;
   display: flex;
   flex-flow: wrap row;
   justify-content: space-between;
@@ -234,6 +234,8 @@
   width: 100%;
 }
 .servicios-ancestro .servicios-centro .servicio-info {
+  height: 50%;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -253,6 +255,10 @@
 .servicios-ancestro .servicios-inf #parrafo-colapso {
   color: #212121;
   text-align: justify;
+}
+.servicios-ancestro .servicios-inf #servicios-icon {
+  width: 25px;
+  margin-right: 20px;
 }
 .servicios-ancestro .servicios-inf .accordion-button:not(.collapsed) {
   color: #14ffec;
