@@ -267,7 +267,7 @@
 .servicios-ancestro {
     // border: 1px solid magenta;
     background-color: $color-blanco;
-    height: 100vmax;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -347,7 +347,8 @@
         margin-bottom: 30px;
 
         #parrafo-colapso {
-            color: $color-grisoscuro1
+            color: $color-grisoscuro1;
+            text-align: justify;
         }
 
         .accordion-button:not(.collapsed) {

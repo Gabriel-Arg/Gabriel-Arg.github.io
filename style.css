@@ -188,7 +188,7 @@
 
 .servicios-ancestro {
   background-color: #eeeeee;
-  height: 100vmax;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -252,6 +252,7 @@
 }
 .servicios-ancestro .servicios-inf #parrafo-colapso {
   color: #212121;
+  text-align: justify;
 }
 .servicios-ancestro .servicios-inf .accordion-button:not(.collapsed) {
   color: #14ffec;
