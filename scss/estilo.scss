@@ -113,7 +113,6 @@
     }
 }
 
-
 // ---------------------------------------
 //    HISTORIA 2
 // ---------------------------------------
@@ -131,6 +130,7 @@
     height: 105vmax;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 
     .skill-conten-superior {
         // border: 1px solid blue;
@@ -159,7 +159,7 @@
 
             h2 {
                 color: $color-grisclaro1;
-                font-size: 50px;
+                font-size: 60px;
             }
         }
     }
@@ -272,6 +272,15 @@
 }
 
 // ---------------------------------------
+//    HISTORIA 2
+// ---------------------------------------
+.history2-ancestro {
+    background-color: $color-blanco;
+    // border: 1px solid magenta;
+    height: 40px;
+}
+
+// ---------------------------------------
 //    SERVICIOS
 // ---------------------------------------
 .servicios-ancestro {
@@ -301,7 +310,7 @@
 
             h2 {
                 color: $color-filtrogris2;
-                font-size: 40px;
+                font-size: 60px;
             }
         }
 
@@ -407,5 +416,5 @@
 .history3-ancestro {
     background-color: $color-blanco;
     // border: 1px solid magenta;
-    height: 50px;
+    height: 100px;
 }
