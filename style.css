@@ -261,6 +261,8 @@
 .servicios-ancestro .contenedor-serv .servicios-inf #servicios-icon {
   width: 35px;
   margin-right: 20px;
+  position: static;
+  z-index: 0;
 }
 .servicios-ancestro .contenedor-serv .servicios-inf #acordion-body {
   background-color: #2121213c;
