@@ -83,6 +83,7 @@ nav a:hover {
   position: fixed;
   bottom: 10px;
   left: 55px;
+  z-index: 1;
 }
 .contacto-button img {
   width: 100%;
@@ -390,7 +391,7 @@ nav a:hover {
 .footer-padre {
   /* background-color: rgba(255, 0, 0, 0.063);
   border: 1px solid red; */
-  height: 25%;
+  height: 26%;
 }
 /*----SUPERIOR- IZQUIERDA--------------- */
 .footer-f1-correo {
@@ -424,14 +425,14 @@ nav a:hover {
 }
 /*------SUPERIOR DERECHA------------------- */
 .numero05 h2 {
-  font-size: 50px;
+  font-size: 60px;
   color: #323232;
   margin: 15px 0px 0px;
 }
 /* -----CONTENEDOR DEL CENTRO-------------- */
 .footer-padre-centro {
   /* background-color: rgba(100, 148, 237, 0.035); */
-  height: 50%;
+  height: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

@@ -364,6 +364,8 @@
             #servicios-icon {
                 width: 35px;
                 margin-right: 20px;
+                position: static;
+                z-index: 0;
             }
             #acordion-body {
                 background-color: $color-filtrogris2;

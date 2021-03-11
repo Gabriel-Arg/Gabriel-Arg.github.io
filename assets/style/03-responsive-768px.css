@@ -116,22 +116,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
     /* ---------FOOTER-------------------- */
     .footer-ancestro  {
         height: 100vmin;
     }
     .numero05 h2 {
-        font-size: 5rem;
+        font-size: 7rem;
         margin: 20px 0px 0px 30%;
     }
     .footer-padre-centro h5 {
@@ -143,6 +133,7 @@
     .footer-redes {
         flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
     .footer-redes-cont {
         margin: 0px 10px 0px;
