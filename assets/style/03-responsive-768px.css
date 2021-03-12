@@ -119,6 +119,9 @@
     .proyect-ancestro {
         height: 100vmin;
     }
+    .proyect-ancestro .proyecto-wraper .proyecto-titulo {
+        margin-top: 35px;
+    }
     .proyect-ancestro .proyecto-wraper .proyecto-titulo h2 {
         font-size: 5rem;
     }

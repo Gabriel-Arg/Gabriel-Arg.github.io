@@ -442,6 +442,7 @@
         }
 
         .proyecto-titulo {
+            // border: 1px solid crimson;
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
@@ -463,16 +464,68 @@
         }
         
         .proyecto-btn {
+            // border: 1px solid yellow;
+
             display: flex;
             flex-direction: row;
             justify-content: center;
+            align-items: center;
+
+            .proyecto-joystic {
+                // border: 1px solid magenta;
+                width: auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .joystic-fila {
+                    // border: 1px solid white;
+                    margin: 0px;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    .btn-x3 {
+                        // background-color: rgba(0, 0, 255, 0.282);
+                        margin: 0px;
+                        width: 40px;
+                        height: 40px;
+                        cursor: pointer;
+
+                        img {
+                            width: 100%;
+                            filter: $color-efect-shadow-icon;
+                        }
+
+                        img:hover {
+                            filter: $color-efectohover;
+                        }
+                    }
+                }
+            }
+
+
+
+
+
 
             .btn-proyect {
                 width: 80px;
+                cursor: pointer;
+                transition: 0.3s;
 
                 img {
                     width: 100%;
+                    filter: $color-efect-shadow-icon;
                 }
+            }
+            .btn-proyect:hover {
+                filter: $color-efectohover;
+                transition: 0.3s;
             }
         }
 
@@ -488,7 +541,7 @@
                 padding: 0;
 
                 h2 {
-                    font-size: 50px;
+                    font-size: 60px;
                     margin: 0;
                     width: auto;
                     color: $color-grisclaro1;

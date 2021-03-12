@@ -328,12 +328,47 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn .proyecto-joystic {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn .proyecto-joystic .joystic-fila {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn .proyecto-joystic .joystic-fila .btn-x3 {
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn .proyecto-joystic .joystic-fila .btn-x3 img {
+  width: 100%;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn .proyecto-joystic .joystic-fila .btn-x3 img:hover {
+  filter: drop-shadow(1px 1px 10px #0d7377);
 }
 .proyect-ancestro .proyecto-wraper .proyecto-btn .btn-proyect {
   width: 80px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .proyect-ancestro .proyecto-wraper .proyecto-btn .btn-proyect img {
   width: 100%;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn .btn-proyect:hover {
+  filter: drop-shadow(1px 1px 10px #0d7377);
+  transition: 0.3s;
 }
 .proyect-ancestro .proyecto-wraper .proyecto-numero {
   display: flex;
@@ -347,7 +382,7 @@
   padding: 0;
 }
 .proyect-ancestro .proyecto-wraper .proyecto-numero .numero04 h2 {
-  font-size: 50px;
+  font-size: 60px;
   margin: 0;
   width: auto;
   color: #323232;
