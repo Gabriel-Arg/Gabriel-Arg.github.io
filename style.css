@@ -296,4 +296,61 @@
   height: 100px;
 }
 
+.proyect-ancestro {
+  background-color: #414141;
+  height: 100vmax;
+}
+.proyect-ancestro .proyecto-wraper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-titulo h2 {
+  margin: 0;
+  font-size: 40px;
+  width: auto;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-mono {
+  height: 50%;
+  background-image: url(assets/img/monito-buscando.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn .btn-proyect {
+  width: 80px;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-btn .btn-proyect img {
+  width: 100%;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-numero {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-numero .numero04 {
+  width: auto;
+  margin: 0px 20px 0px 0px;
+  padding: 0;
+}
+.proyect-ancestro .proyecto-wraper .proyecto-numero .numero04 h2 {
+  font-size: 50px;
+  margin: 0;
+  width: auto;
+  color: #323232;
+}
+
 /*# sourceMappingURL=style.css.map */

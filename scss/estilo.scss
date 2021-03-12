@@ -420,3 +420,80 @@
     // border: 1px solid magenta;
     height: 100px;
 }
+
+// ---------------------------------------
+//    PROYECTOS
+// ---------------------------------------
+.proyect-ancestro {
+    // border: 1px solid magenta;
+    background-color: $color-grisclaro2;
+    height: 100vmax;
+
+    .proyecto-wraper {
+        // border: 1px solid red;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .proyecto-row {
+            // border: 1px solid chartreuse;
+        }
+
+        .proyecto-titulo {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            h2 {
+                margin: 0;
+                font-size: 40px;
+                width: auto;
+            }
+        }
+
+        .proyecto-mono {
+            height: 50%;
+            background-image: url(assets/img/monito-buscando.gif);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        
+        .proyecto-btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .btn-proyect {
+                width: 80px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .proyecto-numero {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+
+            .numero04 {
+                width: auto;
+                margin: 0px 20px 0px 0px;
+                padding: 0;
+
+                h2 {
+                    font-size: 50px;
+                    margin: 0;
+                    width: auto;
+                    color: $color-grisclaro1;
+                }
+            }
+        }
+    }
+}
