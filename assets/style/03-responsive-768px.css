@@ -113,6 +113,22 @@
         text-align: justify;
     }
 
+    /* --------------------------------------------- */
+    /*   PROYECTOS   */
+    /* --------------------------------------------- */
+    .proyect-ancestro {
+        height: 100vmin;
+    }
+    .proyect-ancestro .proyecto-wraper .proyecto-titulo h2 {
+        font-size: 5rem;
+    }
+    .proyect-ancestro .proyecto-wraper .proyecto-mono {
+        height: 40%;
+    }
+    .proyect-ancestro .proyecto-wraper .proyecto-numero .numero04 h2 {
+        font-size: 5rem;
+        margin-right: 3rem;
+      }
 
 
 
