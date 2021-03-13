@@ -135,9 +135,13 @@
 
     /* -------EROR 404 desplegable ------------- */
     .proyect-ancestro .error404-activo .error404-conteiner {
-        height: 80%;
+        height: 1000%;
         background-size: contain;
-      }
+    }
+    .proyect-ancestro .error404-activo {
+        height: 60%;
+    
+    }
 
 
     /* ---------FOOTER-------------------- */

@@ -298,7 +298,7 @@
 
 .proyecto-faja {
   background-color: #414141;
-  height: 100px;
+  height: 70px;
 }
 
 .proyect-ancestro {
@@ -351,12 +351,10 @@
   align-items: center;
 }
 .proyect-ancestro .proyecto-wraper .proyecto-btn .proyecto-joystic .joystic-fila .btn-x3 {
-  margin: 0px;
+  margin: 3px;
   width: 40px;
   height: 40px;
   cursor: pointer;
-  position: static;
-  z-index: 1;
 }
 .proyect-ancestro .proyecto-wraper .proyecto-btn .proyecto-joystic .joystic-fila .btn-x3 img {
   width: 100%;
@@ -397,8 +395,8 @@
 }
 .proyect-ancestro .error404-activo {
   background-color: #414141;
-  height: 80%;
-  width: 50vw;
+  height: 60%;
+  width: 100vw;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -406,19 +404,34 @@
   align-items: center;
   position: absolute;
   left: 0px;
-  bottom: 0px;
+  top: 0px;
   transition: 0.4s;
 }
 .proyect-ancestro .error404-activo .error404-conteiner {
-  height: 60%;
+  height: 100%;
   width: 100%;
   background-image: url(/assets/img/error-404.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 83vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.proyect-ancestro .error404-activo .error404-conteiner #error404-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.proyect-ancestro .error404-activo .error404-conteiner #error404-titulo h2 {
+  margin: 0;
+}
+.proyect-ancestro .error404-activo .error404-conteiner #error404-titulo p {
+  margin: 0;
 }
 .proyect-ancestro .error404-oculto {
-  left: -50vw;
+  left: -100vw;
 }
 
 /*# sourceMappingURL=style.css.map */
