@@ -428,7 +428,7 @@
 .proyecto-faja {
     background-color: $color-grisclaro2;
     // border: 1px solid magenta;
-    height: 100px;
+    height: 70px;
 }
 
 .proyect-ancestro {
@@ -500,13 +500,14 @@
                     align-items: center;
 
                     .btn-x3 {
+                        // border: 1px solid red;
                         // background-color: rgba(0, 0, 255, 0.282);
-                        margin: 0px;
+                        margin: 3px;
                         width: 40px;
                         height: 40px;
                         cursor: pointer;
-                        position: static;
-                        z-index: 1;
+                        // position: static;
+                        // z-index: 1;
 
                         img {
                             width: 100%;
@@ -564,8 +565,8 @@
         // border: 1px solid red;
         background-color: $color-grisclaro2;
 
-        height: 80%;
-        width: 50vw;
+        height: 60%;
+        width: 100vw;
         margin: 0;
 
         display: flex;
@@ -575,21 +576,40 @@
 
         position: absolute;
         left: 0px;
-        bottom: 0px;
+        top: 0px;
         transition: 0.4s;
 
         .error404-conteiner {
             // border: 1px solid yellow;
-            height: 60%;
+            height: 100%;
             width: 100%;
             background-image: url(/assets/img/error-404.gif);
             background-repeat: no-repeat;
             background-position: center;
             background-size: 83vw;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
+
+            #error404-titulo {
+                // border: 1px solid blue;
+                display: flex;
+                justify-content: center;
+                align-items: baseline;
+
+                h2 {
+                    margin: 0;
+                }
+                p {
+                    margin: 0;
+                }
+            }
         }
     }
 
     .error404-oculto {
-        left: -50vw;
+        left: -100vw;
     }
 }
