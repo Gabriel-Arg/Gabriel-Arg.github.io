@@ -424,10 +424,20 @@
 // ---------------------------------------
 //    PROYECTOS
 // ---------------------------------------
+//    Faja----------
+.proyecto-faja {
+    background-color: $color-grisclaro2;
+    // border: 1px solid magenta;
+    height: 100px;
+}
+
 .proyect-ancestro {
     // border: 1px solid magenta;
     background-color: $color-grisclaro2;
     height: 100vmax;
+
+    // position para que funcione los desplegables
+    position: relative;
 
     .proyecto-wraper {
         // border: 1px solid red;
@@ -435,11 +445,11 @@
 
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
 
-        .proyecto-row {
-            // border: 1px solid chartreuse;
-        }
+        // .proyecto-row {
+        //     border: 1px solid chartreuse;
+        // }
 
         .proyecto-titulo {
             // border: 1px solid crimson;
@@ -495,6 +505,8 @@
                         width: 40px;
                         height: 40px;
                         cursor: pointer;
+                        position: static;
+                        z-index: 1;
 
                         img {
                             width: 100%;
@@ -507,11 +519,6 @@
                     }
                 }
             }
-
-
-
-
-
 
             .btn-proyect {
                 width: 80px;
@@ -548,5 +555,41 @@
                 }
             }
         }
+    }
+
+    // ---------------------------
+    //    ERROR 404 DESPLEGABLE
+    // ---------------------------
+    .error404-activo {
+        // border: 1px solid red;
+        background-color: $color-grisclaro2;
+
+        height: 80%;
+        width: 50vw;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        transition: 0.4s;
+
+        .error404-conteiner {
+            // border: 1px solid yellow;
+            height: 60%;
+            width: 100%;
+            background-image: url(/assets/img/error-404.gif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 83vw;
+        }
+    }
+
+    .error404-oculto {
+        left: -50vw;
     }
 }
