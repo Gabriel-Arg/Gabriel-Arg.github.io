@@ -520,6 +520,10 @@
     <div class="container-fluid history3-ancestro">
     </div>
 
+    <!-- ---------------------Proyecto Faja --------------------------------------------------------- -->
+    <div class="container-fluid proyecto-faja">
+    </div>
+
     <!-- -------------------- PROYECTOS --------------------------------------------------------------->
     <div id="proyectos" class="container-fluid proyect-ancestro">
         <div class="container proyecto-wraper">
@@ -546,7 +550,7 @@
                         </div>
 
                         <div class="joystic-fila">
-                            <div class="btn-x3">
+                            <div class="btn-x3 btn-cuadrado">
                                 <img src="assets/icons/btn-square.svg" alt="boton izquierdo">
                             </div>
                             <div class="btn-x3">
@@ -565,19 +569,7 @@
                             <div class="btn-x3">
                             </div>
                         </div>
-
                     </div>
-
-
-
-
-
-                <!-- <i class="btn-proyect">
-                    <img src="/assets/icons/btn-circle.svg" alt="">
-                </i>
-                <i class="btn-proyect">
-                    <img src="/assets/icons/btn-square.svg" alt="">
-                </i> -->
 
             </div>
 
@@ -588,8 +580,19 @@
                     </h2>
                 </div>
             </div>
-
         </div>
+
+        <!-- --------------------------------------------------------- -->
+            <!--    EROR 404 DESPLEGABLE  -->
+            <!-- --------------------------------------------------------- -->
+            <div class="error404-ancestro error404-activo error404-oculto">
+                <div class="error404-conteiner">
+                </div>
+                <!-- <div id="error404-comentario">
+                    <p>Acá va un comentario</p>
+                </div> -->
+            </div>
+        
     </div>
 
 
@@ -601,7 +604,9 @@
 
 
 
-
+    <!-- ---------------------Proyecto Faja --------------------------------------------------------- -->
+    <div class="container-fluid proyecto-faja">
+    </div>
 
     <!-- -------------------- HACER CONTACTO --------------------------------------------------------------->
     <div class="container">
@@ -701,6 +706,37 @@
         </div>
 
     </div>
+
+
+    
+    <!-- ----------------- JAVASCRIPT ERROR 404 DESPLEGABLE-------------------- -->
+    <script>
+        // SELECTORES --- seleccionamos a la class que contiene al boton cuadrado y al error 404.
+        document.querySelector('.error404-activo');
+        document.querySelector('.btn-cuadrado');
+
+        // VARIABLES CONSTANTES
+        const error404 = document.querySelector('.error404-activo');
+        const botonCuadrado = document.querySelector('.btn-cuadrado');
+
+        // DEJO UN MENSAJE CON LAS VARIABLES
+        console.log(error404);
+        console.log(botonCuadrado);
+
+        // EVENTO SOBRE EL BURGER-BUTTON
+        botonCuadrado.addEventListener('click', desplegar);
+
+        // FUNCIÓN para que DESPLIEGUE Y SE OCULTE EL MENU
+        function desplegar() {
+            if (error404.classList.contains('error404-oculto')) {
+                error404.classList.remove('error404-oculto');
+            } else {
+                error404.classList.add('error404-oculto');
+            }
+        }
+    </script>
+
+
 
     <!-- ----------------- JAVASCRIPT PARA EL BURGUER BUTTON-------------------- -->
     <script>

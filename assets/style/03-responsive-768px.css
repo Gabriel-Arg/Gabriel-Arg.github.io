@@ -131,8 +131,13 @@
     .proyect-ancestro .proyecto-wraper .proyecto-numero .numero04 h2 {
         font-size: 5rem;
         margin-right: 3rem;
-      }
+    }
 
+    /* -------EROR 404 desplegable ------------- */
+    .proyect-ancestro .error404-activo .error404-conteiner {
+        height: 80%;
+        background-size: contain;
+      }
 
 
     /* ---------FOOTER-------------------- */
