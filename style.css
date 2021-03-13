@@ -396,7 +396,7 @@
 .proyect-ancestro .error404-activo {
   background-color: #414141;
   height: 60%;
-  width: 100vw;
+  width: 98vw;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -429,9 +429,50 @@
 }
 .proyect-ancestro .error404-activo .error404-conteiner #error404-titulo p {
   margin: 0;
+  font-size: 18px;
 }
 .proyect-ancestro .error404-oculto {
-  left: -100vw;
+  left: -98vw;
+}
+.proyect-ancestro .planta-activa {
+  background-color: #414141;
+  height: 60%;
+  width: 98vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transition: 0.4s;
+}
+.proyect-ancestro .planta-activa .planta-conteiner {
+  height: 100%;
+  width: 100%;
+  background-image: url(/assets/img/planta.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 83vw;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.proyect-ancestro .planta-activa .planta-conteiner #planta-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyect-ancestro .planta-activa .planta-conteiner #planta-titulo p {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+}
+.proyect-ancestro .planta-oculta {
+  left: -98vw;
 }
 
 /*# sourceMappingURL=style.css.map */

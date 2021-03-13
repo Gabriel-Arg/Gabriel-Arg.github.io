@@ -550,12 +550,12 @@
                         </div>
 
                         <div class="joystic-fila">
-                            <div class="btn-x3 btn-cuadrado">
+                            <div class="btn-x3 btn-cuadrado" title="Clic para mostrar y ocultar">
                                 <img src="assets/icons/btn-square.svg" alt="boton izquierdo">
                             </div>
                             <div class="btn-x3">
                             </div>
-                            <div class="btn-x3">
+                            <div class="btn-x3 btn-redondo" title="Clic para mostrar y ocultar">
                                 <img src="assets/icons/btn-circle.svg" alt="boton derecho">
                             </div>
                         </div>
@@ -573,6 +573,7 @@
 
             </div>
 
+
             <div class="row proyecto-row proyecto-numero">
                 <div class="numero04">
                     <h2>
@@ -583,15 +584,37 @@
         </div>
 
         <!-- --------------------------------------------------------- -->
-            <!--    EROR 404 DESPLEGABLE  -->
-            <!-- --------------------------------------------------------- -->
-            <div class="error404-ancestro error404-activo error404-oculto">
-                <div class="error404-conteiner">
-                    <div id="error404-titulo"">
-                        <h2>Ups... lo siento. Algo pasó...</h2>
-                    </div>
+        <!--    ERROR 404 DESPLEGABLE  -->
+        <!-- --------------------------------------------------------- -->
+        <div class="error404-ancestro error404-activo error404-oculto">
+            <div class="error404-conteiner">
+                <div id="error404-titulo"">
+                    <p>Ups... <span style="font-size: 30px;"> 😅 </span> lo siento, algo paso. </p>
                 </div>
             </div>
+        </div>
+
+        <!-- --------------------------------------------------------- -->
+        <!--    PLANTA DESPLEGABLE  -->
+        <!-- --------------------------------------------------------- -->
+        <div class="planta-ancestro planta-activa planta-oculta">
+            <div class="planta-conteiner">
+                <div id="planta-titulo"">
+                    <p>
+                        <span style="font-size: 50px;">☁️</span> <br>
+                        En este momento estoy en crecimiento <br>
+                        preparando nuevos proyectos <br>
+                        que muy pronto <br>
+                        te mostraré.
+                    </p>
+                </div>
+                <!-- <div id="planta-titulo"">
+                    <p>estoy en pleno crecimiento</p>
+                </div> -->
+            </div>
+        </div>
+
+
         
     </div>
 
@@ -736,7 +759,32 @@
         }
     </script>
 
+    <!-- ----------------- PLANTA DESPLEGABLE-------------------- -->
+    <script>
+        // SELECTORES --- seleccionamos a la class que contiene al boton cuadrado y al error 404.
+        document.querySelector('.planta-activa');
+        document.querySelector('.btn-redondo');
 
+        // VARIABLES CONSTANTES
+        const planta = document.querySelector('.planta-activa');
+        const botonRedondo = document.querySelector('.btn-redondo');
+
+        // DEJO UN MENSAJE CON LAS VARIABLES
+        console.log(planta);
+        console.log(botonRedondo);
+
+        // EVENTO SOBRE EL BURGER-BUTTON
+        botonRedondo.addEventListener('click', desplegar);
+
+        // FUNCIÓN para que DESPLIEGUE Y SE OCULTE EL MENU
+        function desplegar() {
+            if (planta.classList.contains('planta-oculta')) {
+                planta.classList.remove('planta-oculta');
+            } else {
+                planta.classList.add('planta-oculta');
+            }
+        }
+    </script>
 
     <!-- ----------------- JAVASCRIPT PARA EL BURGUER BUTTON-------------------- -->
     <script>

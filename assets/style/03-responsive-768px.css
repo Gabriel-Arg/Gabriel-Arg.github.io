@@ -133,12 +133,21 @@
         margin-right: 3rem;
     }
 
-    /* -------EROR 404 desplegable ------------- */
+    /* -------ERROR 404 desplegable ------------- */
     .proyect-ancestro .error404-activo .error404-conteiner {
-        height: 1000%;
+        height: 100%;
         background-size: contain;
     }
     .proyect-ancestro .error404-activo {
+        height: 60%;
+    }
+
+    /* -------PLANTA desplegable ------------- */
+    .proyect-ancestro .planta-activa .planta-conteiner {
+        height: 100%;
+        background-size: contain;
+    }
+    .proyect-ancestro .planta-activa {
         height: 60%;
     
     }

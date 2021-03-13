@@ -566,7 +566,7 @@
         background-color: $color-grisclaro2;
 
         height: 60%;
-        width: 100vw;
+        width: 98vw;
         margin: 0;
 
         display: flex;
@@ -604,12 +604,69 @@
                 }
                 p {
                     margin: 0;
+                    font-size: 18px;
                 }
             }
         }
     }
 
     .error404-oculto {
-        left: -100vw;
+        left: -98vw;
     }
+
+    // ---------------------------
+    //    PLANTA DESPLEGABLE
+    // ---------------------------
+    .planta-activa {
+        // border: 1px solid red;
+        background-color: $color-grisclaro2;
+
+        height: 60%;
+        width: 98vw;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        transition: 0.4s;
+
+        .planta-conteiner {
+            // border: 1px solid yellow;
+            height: 100%;
+            width: 100%;
+            background-image: url(/assets/img/planta.gif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 83vw;
+            margin-top: 70px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+
+            #planta-titulo {
+                // border: 1px solid blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    margin: 0;
+                    text-align: center;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .planta-oculta {
+        left: -98vw;
+    }
+
 }
