@@ -2,6 +2,94 @@
 
 
 // ---------------------------------------
+//      HERO
+// ---------------------------------------
+.hero-ancestro {
+    // border: 1px solid blue;
+    height: 100vmax;
+    padding: 0;
+
+    background-image: url(assets/img/perfil-vector-BN.png);
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: bottom left;
+
+    .hero-padre {
+        // border: 1px solid orangered;
+        height: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        position: relative;
+
+        .hero-title {
+            // border: 1px solid cyan;
+            width: auto;
+            margin: 30px 0px 0px 5%;
+            padding: 20px 20px 0px 0px;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            h1 {
+                width: auto;
+                font-size: 70px;
+                margin: 0;
+                padding: 0;
+                color: $color-blanco;
+            }
+
+            h2 {
+                width: auto;
+                font-size: 30px;
+                color: $color-celesteoscuro;
+                margin: 0px;
+            }
+        }
+
+        .hero-banner {
+            // border: 1px solid blue;
+            width: auto;
+            padding: 0;
+            margin: 35px 0px 0px;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+
+            h2 {
+                margin: 0;
+                padding: 0;
+                width: auto;
+                writing-mode: vertical-rl;
+                font-size: 75px;
+                color: $color-grisoscuro2;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------------------------
 //      PARALAX 1
 // ---------------------------------------
 .conten-ancestro {

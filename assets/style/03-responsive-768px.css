@@ -13,6 +13,44 @@
         z-index: 1;
     }
 
+    /* ------HERO---------------------- */
+    .hero-ancestro {
+        height: 100vmin;
+        background-size: 90vh;
+    }
+    .hero-ancestro .hero-padre {
+        padding-bottom: 9rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-ancestro .hero-padre .hero-title {
+        /* height: 70%; */
+        margin: 0px;
+        padding: 0;
+    }
+    .hero-ancestro .hero-padre .hero-title h1 {
+        font-size: 9rem;
+    }
+    .hero-ancestro .hero-padre .hero-title h2 {
+        font-size: 3rem;
+    }
+    .hero-ancestro .hero-padre .hero-banner {
+        margin: 50px 0px 0px;
+      }
+    .hero-ancestro .hero-padre .hero-banner h2 {
+        font-size: 7rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     /* ------HEADER-------------------- */
     .header-ancestro  {
