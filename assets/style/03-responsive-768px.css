@@ -24,8 +24,8 @@
         justify-content: center;
     }
     .hero-ancestro .hero-padre .hero-title {
-        /* height: 70%; */
-        margin: 0px;
+        /* border: 1px solid yellow; */
+        margin: 0px 0px 0px 100px;
         padding: 0;
     }
     .hero-ancestro .hero-padre .hero-title h1 {
@@ -36,39 +36,15 @@
     }
     .hero-ancestro .hero-padre .hero-banner {
         margin: 50px 0px 0px;
-      }
+    }
     .hero-ancestro .hero-padre .hero-banner h2 {
         font-size: 7rem;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-    /* ------HEADER-------------------- */
-    .header-ancestro  {
-        height: 100vmin;
+    .hero-ancestro .hero-padre .hero-title p {
+        font-size: 1.5rem;
     }
-    .numero00 h2 {
-        font-size: 7rem;
-      }
-    .header-padre-centro h5 {
-        padding: 0% 20%;
-    }
-    .header-monitor {
-        width: 60%;
-        padding: 40px 0px;
-    }
-    .flecha-abajo a img {
-        margin-right: 30vmax;
-    }
+
+
 
     /* --------SOBRE MI--------------- */
     .sobremi-ancestro  {
