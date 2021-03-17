@@ -93,19 +93,18 @@ nav a:hover {
   width: 150px;
   border-radius: 50%;
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: -110px;
 }
 .modal-dialog {
-  margin: 170px 15vw 0;
-  color: #30475e;
+  margin: 30vh 15vw 0;
   font-family: 'Aldrich', sans-serif;
   width: 250px;
   height: auto;
   left: ;
 }
 .modal-content {
-  background-color: #252525;
+  background-color: #323232;
 }
 .modal-body .row {
   /* border: 1px solid red; */
@@ -455,7 +454,7 @@ nav a:hover {
 }
 .footer-centro-c1 p {
   text-align: end;
-  color: #0d7377;
+  color: #14ffec;
 }
 .footer-centro-c2 {
   border-left: 1px solid #0d7377;
