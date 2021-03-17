@@ -1,3 +1,7 @@
+.hero-faja {
+  height: 50px;
+}
+
 .hero-ancestro {
   height: 100vmax;
   padding: 0;
@@ -24,6 +28,7 @@
 }
 .hero-ancestro .hero-padre .hero-title h1 {
   width: auto;
+  padding: 0;
   font-size: 70px;
   margin: 0;
   padding: 0;
@@ -31,9 +36,16 @@
 }
 .hero-ancestro .hero-padre .hero-title h2 {
   width: auto;
-  font-size: 30px;
+  height: auto;
+  font-size: 25px;
   color: #0d7377;
   margin: 0px;
+}
+.hero-ancestro .hero-padre .hero-title p {
+  font-size: 15px;
+  color: #af0404;
+  margin: 0px;
+  text-align: end;
 }
 .hero-ancestro .hero-padre .hero-banner {
   width: auto;
@@ -50,7 +62,7 @@
   width: auto;
   writing-mode: vertical-rl;
   font-size: 75px;
-  color: #252525;
+  color: #3131313c;
 }
 
 .conten-ancestro {
