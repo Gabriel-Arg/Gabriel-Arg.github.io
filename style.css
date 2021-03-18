@@ -64,6 +64,21 @@
   font-size: 75px;
   color: #3131313c;
 }
+.hero-ancestro .hero-padre .avance {
+  width: 40px;
+  height: 70px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.hero-ancestro .hero-padre .avance img {
+  width: 40px;
+  position: relative;
+  animation-name: flechaabajo;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
 
 .conten-ancestro {
   background-color: #eeeeee;

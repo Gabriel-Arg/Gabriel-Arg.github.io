@@ -43,6 +43,10 @@
     .hero-ancestro .hero-padre .hero-title p {
         font-size: 1.5rem;
     }
+    .hero-ancestro .hero-padre .avance {
+        bottom: 10%;
+        right: 24%;
+    }
 
 
 
